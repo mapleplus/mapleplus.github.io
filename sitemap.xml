@@ -2090,14 +2090,14 @@
 
   
   <url>
-    <loc>https://blog.fxink.cn/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%89%E9%9B%86/</loc>
+    <loc>https://blog.fxink.cn/tags/sql-MySQL/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/tags/sql-MySQL/</loc>
+    <loc>https://blog.fxink.cn/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%89%E9%9B%86/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2113,13 +2113,6 @@
 
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/</loc>
-    <lastmod>2024-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.fxink.cn/categories/java/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -2127,7 +2120,7 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/first/</loc>
+    <loc>https://blog.fxink.cn/categories/maozedong/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2135,6 +2128,13 @@
   
   <url>
     <loc>https://blog.fxink.cn/categories/java/mysql/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/maozedong/first/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2155,14 +2155,14 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/fourth/</loc>
+    <loc>https://blog.fxink.cn/categories/maozedong/second/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/second/</loc>
+    <loc>https://blog.fxink.cn/categories/maozedong/fourth/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
