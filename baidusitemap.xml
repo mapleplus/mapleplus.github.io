@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fxink.cn/java-mysql-advance-2024-11-28-MySQL/</loc>
+    <lastmod>2024-11-28</lastmod>
+  </url>
+  <url>
     <loc>https://blog.fxink.cn/java-mysql-base-2024-11-26-MySQL/</loc>
     <lastmod>2024-11-28</lastmod>
   </url>
@@ -10,10 +14,6 @@
   </url>
   <url>
     <loc>https://blog.fxink.cn/java-maple-coupon-maple-coupon/</loc>
-    <lastmod>2024-11-28</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.fxink.cn/java-mysql-advance-2024-11-28-MySQL/</loc>
     <lastmod>2024-11-28</lastmod>
   </url>
   <url>
