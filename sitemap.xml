@@ -2097,14 +2097,14 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/tags/Java/</loc>
+    <loc>https://blog.fxink.cn/tags/sql-MySQL/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/tags/sql-MySQL/</loc>
+    <loc>https://blog.fxink.cn/tags/Java/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2120,7 +2120,7 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/first/</loc>
+    <loc>https://blog.fxink.cn/categories/maozedong/fifth/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2134,7 +2134,7 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/fifth/</loc>
+    <loc>https://blog.fxink.cn/categories/java/mysql/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2148,6 +2148,13 @@
   </url>
   
   <url>
+    <loc>https://blog.fxink.cn/categories/maozedong/first/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.fxink.cn/categories/maozedong/second/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -2155,21 +2162,14 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/third/</loc>
-    <lastmod>2024-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.fxink.cn/categories/java/mysql/</loc>
-    <lastmod>2024-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.fxink.cn/categories/maozedong/fourth/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/maozedong/third/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
