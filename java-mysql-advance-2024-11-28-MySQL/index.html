@@ -1,0 +1,667 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta name="google-site-verification" content="azjuzl6CEBYLWBS0W60kU1RbFwc0BDUjcamBd7sPoaM"><meta name="msvalidate.01" content="8E382266D67FD65851244642973CB195"><meta name="baidu-site-verification" content="codeva-caG341xjbS"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="../assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png"><link rel="alternate" href="../rss.xml" title="Maple" type="application/rss+xml"><link rel="alternate" href="../atom.xml" title="Maple" type="application/atom+xml"><link rel="alternate" type="application/json" title="Maple" href="https://blog.fxink.cn/feed.json"><link rel="preconnect" href="https://s4.zstatic.net"><link rel="preconnect" href="https://at.alicdn.com"><link rel="preconnect" href="https://lf9-cdn-tos.bytecdntp.com"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="dns-prefetch" href="https://unpkg.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&display=swap&subset=latin,latin-ext" media="none" onload="this.media&#x3D;&#39;all&#39;"><link rel="stylesheet" href="../css/app.css?v=0.4.16"><link rel="modulepreload" href="../js/chunk-27ZN6DSU.js"><link rel="modulepreload" href="../js/chunk-5EDHXAQ4.js"><link rel="modulepreload" href="../js/chunk-HJJEKW74.js"><link rel="modulepreload" href="../js/chunk-HPTF7WQM.js"><link rel="modulepreload" href="../js/chunk-UFWAGIZD.js"><link rel="modulepreload" href="../js/chunk-WIQECBEN.js"><link rel="modulepreload" href="../js/comments-VYBOF5SL.js"><link rel="modulepreload" href="../js/copy-tex-GAJOL3PI.js"><link rel="modulepreload" href="../js/index.esm-DEBW3XVN.js"><link rel="modulepreload" href="../js/post-OYCCXBF4.js"><link rel="modulepreload" href="../js/quicklink-LDE43DPI.js"><link rel="modulepreload" href="../js/search-JCLSFG7Z.js"><link rel="modulepreload" href="../js/siteInit.js"><link rel="modulepreload" href="../js/waline-NVSVNCZW.js"><link rel="stylesheet" href="../css/comments-LAB2J3GR.css" media="none" onload="this.media&#x3D;&#39;all&#39;"><link rel="stylesheet" href="../css/siteInit.css" media="none" onload="this.media&#x3D;&#39;all&#39;"><link rel="stylesheet" href="../css/waline-7JVHAYE3.css" media="none" onload="this.media&#x3D;&#39;all&#39;"><link rel="preload" href="https://image.fxink.cn/maple/9BF42BA417107FD2105BEB2393302D76.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://image.fxink.cn/maple/20241128121307.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://image.fxink.cn/maple/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E4%BA%94%E6%9D%A1%E6%82%9F-%E5%8A%A8%E6%BC%AB%E7%94%B7%E5%AD%A9.png" as="image" fetchpriority="high"><link rel="preload" href="https://image.fxink.cn/maple/adf5915ce3d3dc45e5369e0433c2b4a2.png" as="image" fetchpriority="high"><link rel="preload" href="https://image.fxink.cn/maple/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E4%BA%8C%E6%AC%A1%E5%85%83%E7%BE%8E%E5%B0%91%E5%A5%B3-%E5%A4%A7%E9%95%BF%E8%85%BF.png" as="image" fetchpriority="high"><link rel="preload" href="https://image.fxink.cn/maple/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E5%A4%AA%E7%A9%BA-%E9%A3%9E%E8%88%B9.png" as="image" fetchpriority="high"><meta name="keywords" content="sql,MySQL"><meta name="description" content="为国民幸福而国家富强"><link rel="canonical" href="https://blog.fxink.cn/java-mysql-advance-2024-11-28-MySQL/"><title>MySQL高级</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">MySQL高级</h1><div class="meta"><span class="item" title="创建时间：2024-11-28 16:20:30"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">发表于</span><time itemprop="dateCreated datePublished" datetime="2024-11-28T16:20:30+08:00">2024-11-28</time></span><span class="item" title="本文字数"><span class="icon"><i class="ic i-pen"></i></span><span class="text">本文字数</span><span>14k</span><span class="text">字</span></span><span class="item" title="阅读时长"><span class="icon"><i class="ic i-clock"></i></span><span class="text">阅读时长</span><span>12 分钟</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切换导航栏"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Maple Plus</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/9BF42BA417107FD2105BEB2393302D76.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/20241128121307.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E4%BA%94%E6%9D%A1%E6%82%9F-%E5%8A%A8%E6%BC%AB%E7%94%B7%E5%AD%A9.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/adf5915ce3d3dc45e5369e0433c2b4a2.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E4%BA%8C%E6%AC%A1%E5%85%83%E7%BE%8E%E5%B0%91%E5%A5%B3-%E5%A4%A7%E9%95%BF%E8%85%BF.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%91%E5%A4%AA%E7%A9%BA-%E9%A3%9E%E8%88%B9.png&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="../index.html">首页</a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="../categories/java/" itemprop="item" rel="index" title="分类于Java"><span itemprop="name">Java<meta itemprop="position" content="0"></span></a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="../categories/java/mysql/" itemprop="item" rel="index" title="分类于MySQL"><span itemprop="name">MySQL<meta itemprop="position" content="1"></span></a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="../categories/java/mysql/advance/" itemprop="item" rel="index" title="分类于MySQL高级"><span itemprop="name">MySQL高级<meta itemprop="position" content="2"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-CN"><link itemprop="mainEntityOfPage" href="https://blog.fxink.cn/java-mysql-advance-2024-11-28-MySQL/"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="../assets/avatar.png"><meta itemprop="name" content="Maple Plus"><meta itemprop="description" content="枫的秘密基地, 为国民幸福而国家富强"></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="Maple"></span><div class="body md" itemprop="articleBody"><h2 id="执行一条-select-的过程"><a class="anchor" href="#执行一条-select-的过程">#</a> 执行一条 SELECT 的过程</h2>
+<p><img loading="lazy" data-src="mysql9FE8A2B5E78B.png" alt="mysql9FE8A2B5E78B"></p>
+<h3 id="连接器"><a class="anchor" href="#连接器">#</a> 连接器</h3>
+<ul>
+<li>对客户端进行连接，用户名 密码等权限校验</li>
+<li>连接有短连接和长连接 短连接会频繁断开和连接过程 对效率不高 推荐使用长连接</li>
+<li>如果在连接过程中对密码修改 长连接不会拒绝请求 只有在下一次重新连接才会校验</li>
+<li>长连接默认 8 小时空闲会自动断开连接 不会告诉客户端 只有客户端发起请求才会接到报错</li>
+<li>为了防止长连接占用大量系统资源而导致的异常重启
+<ul>
+<li>定期断开连接</li>
+<li>客户端主动重置连接</li>
+</ul>
+</li>
+</ul>
+<h3 id="查询缓存"><a class="anchor" href="#查询缓存">#</a> 查询缓存</h3>
+<ul>
+<li>查询缓存是 MySQL 服务器中的一部分，用于缓存查询结果，以便在后续的相同查询中直接返回缓存的结果，而不需要再次执行查询语句。查询缓存可以提高查询性能，因为它减少了数据库的负载和 I/O 操作。</li>
+<li>在 MySQL 8.0 中，查询缓存被完全移除了，因为它的性能提升有限，并且存在一些问题，例如缓存失效和内存管理问题。因此，在 MySQL 8.0 中，查询缓存不再可用。</li>
+</ul>
+<h3 id="分析器"><a class="anchor" href="#分析器">#</a> 分析器</h3>
+<ul>
+<li>词法分析：将输入的 SQL 语句分解成一个个的单词和符号，例如 SELECT、FROM、WHERE 等。</li>
+<li>语法分析：根据 SQL 语句的语法规则，检查输入的 SQL 语句是否符合语法规范，例如检查关键字是否正确，表名和列名是否存在等。</li>
+<li>语义分析：根据 SQL 语句的语义规则，检查输入的 SQL 语句是否合法，例如检查表名和列名是否正确，以及 WHERE 子句中的条件是否合法等。</li>
+</ul>
+<h3 id="预处理器"><a class="anchor" href="#预处理器">#</a> 预处理器</h3>
+<ul>
+<li>预处理器会根据 SQL 语句的语义规则，检查输入的 SQL 语句是否合法，例如检查表名和列名是否正确，以及 WHERE 子句中的条件是否合法等。</li>
+<li>判断表和字段是否存在</li>
+<li>将 * 扩展为所有列</li>
+</ul>
+<h3 id="优化器"><a class="anchor" href="#优化器">#</a> 优化器</h3>
+<ul>
+<li>优化器会根据查询语句的执行计划，选择最优的执行路径，例如选择合适的索引、连接顺序等。</li>
+<li>使用 explain 命令查看执行计划</li>
+</ul>
+<h2 id="一行记录是怎么存储的"><a class="anchor" href="#一行记录是怎么存储的">#</a> 一行记录是怎么存储的？</h2>
+<h3 id="表空间结构"><a class="anchor" href="#表空间结构">#</a> 表空间结构</h3>
+<blockquote>
+<p>MySQL 文件存储在 var/lib/mysql 文件目录 每创建一个数据库 就会产生一个以 database 为名的文件</p>
+</blockquote>
+<ul>
+<li>每个数据库表文件有 db.opt xxx.frm xxx.ibd
+<ul>
+<li>db.opt 存放字符集和字符校验规则</li>
+<li>frm 表结构</li>
+<li>ibd 真实数据</li>
+</ul>
+</li>
+<li>表 -&gt; 段 -&gt; 区 -&gt; 页 -&gt; 行</li>
+<li>段
+<ul>
+<li>索引段 存放 B+Tree 非叶子节点</li>
+<li>数据段 存放 B+Tree 叶子节点</li>
+<li>回滚段 存放回滚数据</li>
+</ul>
+</li>
+<li>区
+<ul>
+<li>MySQL 和数据交互采用页为单位 16KB 使用双向链表连接</li>
+<li>当数据量越来越大时 数据页内存不连续 查询会降低性能 索引树就采用区为基本单位分配空间 64 个页分一个区</li>
+</ul>
+</li>
+<li>页
+<ul>
+<li>和磁盘数据交互的基本单位</li>
+</ul>
+</li>
+<li>行
+<ul>
+<li>redundant 古老的行格式 没有再使用</li>
+<li>Compact</li>
+<li>Dynamic</li>
+<li>Compressed</li>
+</ul>
+</li>
+</ul>
+<h3 id="compact-行格式"><a class="anchor" href="#compact-行格式">#</a> Compact 行格式</h3>
+<p><img loading="lazy" data-src="COMPACT.png" alt="COMPACT"></p>
+<h4 id="变长字段长度列表"><a class="anchor" href="#变长字段长度列表">#</a> 变长字段长度列表</h4>
+<blockquote>
+<p>存储字段中变长字段占用的字节数 变长 NULL 列的大小不会存储 按照字节大小 16 进制逆序存放</p>
+</blockquote>
+<ul>
+<li>为什么逆序存放？</li>
+</ul>
+<blockquote>
+<p>因为记录头信息存放着下一个记录的指针 该指针指向下一条记录的记录头信息和真实数据之间的位置<br>
+向左读就是记录额外信息 向右读就是真实数据<br>
+这样使变长字段和长度对应起来 存放在同一个 CPU Cache Line 中，使 CPU 命中率更高 查询更快</p>
+</blockquote>
+<ul>
+<li>不是必须的列表 当表字段没有变长字段时就会舍去该列表 节省空间</li>
+<li>分配字节小于 255 使用 1 字节存储长度 大于 255 使用 2 字节</li>
+</ul>
+<h4 id="null-列表"><a class="anchor" href="#null-列表">#</a> NULL 列表</h4>
+<blockquote>
+<p>按照二进制比特位存放 NULL 字段 为 NULL 对应 1 不为 NULL 对应 0 同样也是逆序存放</p>
+</blockquote>
+<ul>
+<li>不是必须的列表 当表字段没有 NULL 时就会舍去该列表 节省空间</li>
+<li>NULL 列表是以一个字节为单位存储 如果有 9 个字段为 NULL 会分配 2 个字节 NULL 列表至少占用 1 个字节的空间</li>
+</ul>
+<h4 id="记录头信息"><a class="anchor" href="#记录头信息">#</a> 记录头信息</h4>
+<ul>
+<li>delete_mask：设置删除的记录标记为 1 不会真正删除数据</li>
+<li>next_record：下一条记录的位置</li>
+<li>record_type：0 普通记录；1 B+Tree 非叶子节点记录； 2 最小记录； 3 最大记录</li>
+</ul>
+<h3 id="记录真实数据"><a class="anchor" href="#记录真实数据">#</a> 记录真实数据</h3>
+<p><img loading="lazy" data-src="AEE5959AE79FAEE6B08D%AE.png" alt="AEE5959AE79FAEE6B08D%AE"></p>
+<h4 id="隐藏列"><a class="anchor" href="#隐藏列">#</a> 隐藏列</h4>
+<ul>
+<li>row_id：隐藏主键 记录没有指定主键 又没有唯一索引 就会产生该字段</li>
+<li>trx_id：事务 id</li>
+<li>roll_pointer：回滚指针 版本链指针</li>
+</ul>
+<h3 id="一行记录-varcharn中-n-最大取值多少"><a class="anchor" href="#一行记录-varcharn中-n-最大取值多少">#</a> 一行记录 VARCHAR (n) 中 n 最大取值多少？</h3>
+<ul>
+<li>varchar 字段占用字节大小包含数据大小、数据长度字节、NULL 值大小</li>
+<li><img loading="lazy" data-src="A4E597AEE78483E5B5.png" alt="A4E597AEE78483E5B5"></li>
+</ul>
+<h3 id="行溢出数据怎么解决"><a class="anchor" href="#行溢出数据怎么解决">#</a> 行溢出数据怎么解决？</h3>
+<blockquote>
+<p>如果一行记录溢出数据 比如 TEXT BLOB 会将溢出的数据存放在溢出页中</p>
+</blockquote>
+<ul>
+<li>Compact 记录一部分数据 剩余空间采用 20 字节记录溢出数据的地址</li>
+<li>Dynamic 和 Compressed 不存放真实数据 只存放 20 字节指向溢出数据的指针</li>
+</ul>
+<h2 id="事务的隔离怎么实现"><a class="anchor" href="#事务的隔离怎么实现">#</a> 事务的隔离怎么实现？</h2>
+<h3 id="并行事务产生的问题"><a class="anchor" href="#并行事务产生的问题">#</a> 并行事务产生的问题：</h3>
+<ul>
+<li><strong>脏读</strong>一个事务在执行过程中 读取到了另一个事务还未提交的数据 如果另一个事务回滚 那这个数据就是脏数据 脏读</li>
+<li><strong>不可重复读</strong>  一个事务两次先后读取到的数据不一致</li>
+<li><strong>幻读</strong> 一个事务两次先后读取到的记录不一致</li>
+</ul>
+<h3 id="事务的隔离级别"><a class="anchor" href="#事务的隔离级别">#</a> 事务的隔离级别</h3>
+<ul>
+<li><strong>读未提交</strong> 一个事务可以读取到另一个事务未提交的数据</li>
+<li><strong>读提交</strong> 只有事务提交后其他事务才能看见变更的数据 不可能发生脏读</li>
+<li><strong>可重复读</strong> 数据从事务开启一直到结束都保持一致 InnoDB 默认隔离级别 不可能发生脏读和不可重复读 可能发生幻读</li>
+<li><strong>串行化</strong> 对事务的进行加读写🔒 事务如果发生读写冲突 需要等上一个执行完成才能继续进行 三种问题都不可能发生</li>
+</ul>
+<h3 id="解决可重复读的方案"><a class="anchor" href="#解决可重复读的方案">#</a> 解决可重复读的方案</h3>
+<ul>
+<li>快照读 使用 MVCC</li>
+<li>当前读 使用 Next_key Lock</li>
+</ul>
+<h2 id="mvcc是如何工作的"><a class="anchor" href="#mvcc是如何工作的">#</a> MVCC 是如何工作的？</h2>
+<h3 id="read-view"><a class="anchor" href="#read-view">#</a> Read-View</h3>
+<ul>
+<li><strong>creator_trx_id</strong> 创建该 Read-View 的事务的事务 id</li>
+<li><strong>m_ids</strong> 创建该 Read-View 时 活跃的事务（已经创建事务 但是还未提交）</li>
+<li><strong>min_trx_id</strong> m_ids 中最小的事务 id</li>
+<li><strong>max_trx_id</strong> 创建 Read-View 后 数据库应该给下一个事务的 id</li>
+<li></li>
+</ul>
+<h3 id="聚簇索引的两个隐藏列"><a class="anchor" href="#聚簇索引的两个隐藏列">#</a> 聚簇索引的两个隐藏列</h3>
+<ul>
+<li><strong>trx_id</strong> 对该条记录操作的事务的事务 id</li>
+<li><strong>roll_pointer</strong> 指向 undo_log 版本链的旧版本的指针</li>
+</ul>
+<h3 id="mvcc工作原理"><a class="anchor" href="#mvcc工作原理">#</a> MVCC 工作原理</h3>
+<ol>
+<li>在启动事务时创建当下事务的 Read-View</li>
+<li>根据 Read-View 中的字段和聚簇索引的两个隐藏列：</li>
+<li>trx_id &lt; min_trx_id 说明在该事务创建前就已经提交 记录可见</li>
+<li>trx_id &gt;= max_trx_id 说明在该事务之后才创建的事务 记录不可见</li>
+<li>min_trx_id &lt;= trx_id &lt; m_ids<br>
+1. 在 m_ids 事务还未提交 记录不可见 会根据 roll_pointer 沿着版本链寻找旧版本 找到第一个小于 min_trx_id 的 undo log<br>
+2. 不在 m_ids 事务已经提交 记录可见</li>
+</ol>
+<h2 id="可重复读的mvcc"><a class="anchor" href="#可重复读的mvcc">#</a> 可重复读的 MVCC</h2>
+<ul>
+<li>在事务启动时创建 Read-View 一直到事务提交都用这个 Read-View<br>
+ 读提交的 MVCC</li>
+<li>在每条执行语句启动时创建 Read-View</li>
+</ul>
+<h2 id="mysql锁"><a class="anchor" href="#mysql锁">#</a> MySQL 锁</h2>
+<h3 id="锁分类"><a class="anchor" href="#锁分类">#</a> 锁分类</h3>
+<h4 id="全局锁"><a class="anchor" href="#全局锁">#</a> 全局锁</h4>
+<ul>
+<li>当数据库加上全局锁 整个数据库处于只读状态 其他任何插入、更新、删除操作都会被阻塞 主要用于数据库的备份 如果备份不加全局锁 那么在备份的时候如果有数据更新会导致不可理解的错误 比如一个项目有多个数据库多张表 可能一个请求就会修改多个表 备份的先后顺序导致各个表的数据不匹配</li>
+<li>如果要避免这种阻塞 可以对备份开启可重复度隔离级别事务 使数据库备份的时候 其他操作正常进行 但是不会影响备份的数据</li>
+</ul>
+<h4 id="表级锁"><a class="anchor" href="#表级锁">#</a> 表级锁</h4>
+<h5 id="表锁"><a class="anchor" href="#表锁">#</a> 表锁</h5>
+<ul>
+<li>如果对某一个表加上共享表锁 本线程和其他线程对该表的写操作都会被阻塞 颗粒度太大 不建议使用 可以使用 InnoDB 提供的行级锁</li>
+</ul>
+<h5 id="元数据锁mdl"><a class="anchor" href="#元数据锁mdl">#</a> 元数据锁 (MDL)</h5>
+<ul>
+<li>元数据锁是为了在操作表的时候防止对表结构变更</li>
+<li>CRUD 操作自动加 MDL 读锁 修改表结构自动加 MDL 写锁 在 CRUD 时如果对表结构进行修改将被阻塞</li>
+<li>读读不互斥 读写互斥 写锁获取优先级比读锁高 当一个线程获取了 MDL 写锁 没有释放 那么接下来的线程的读写锁都将获取不到 阻塞</li>
+</ul>
+<h5 id="意向锁"><a class="anchor" href="#意向锁">#</a> 意向锁</h5>
+<ul>
+<li>目的是为了快速判断表中是否有记录加了共享锁或者独占锁 防止全表扫描判断是否有记录占有锁</li>
+<li>对表中某些记录加上共享锁或者独占锁时 会分别加上意向共享锁和意向独占锁</li>
+<li>意向共享锁和意向独占锁不互斥 也不会和行级共享锁和独占锁互斥 只会和共享表锁和独占表锁互斥</li>
+</ul>
+<h5 id="auto-inc-锁"><a class="anchor" href="#auto-inc-锁">#</a> AUTO-INC 锁</h5>
+<ul>
+<li>通过字段加上 AUTO-INCREMENT 属性加锁</li>
+<li>InnoDB 使用系统变量 innodb_autoinc_lock_mode 对 AUTO-INCREMENT 属性的字段进行锁控制
+<ul>
+<li>0 ：使用 AUTO-INC 锁 插入语句时加锁 对字段自增 语句结束释放锁</li>
+<li>2 ：使用轻量级锁 申请主键后就释放锁</li>
+<li>1 ：普通 insert 语句 自增锁在申请之后就马上释放  insert … select 这样的批量插入数据的语句，自增锁还是要等语句结束后才被释放</li>
+</ul>
+</li>
+<li><img loading="lazy" data-src="image.png" alt="image"></li>
+</ul>
+<h4 id="行级锁"><a class="anchor" href="#行级锁">#</a> 行级锁</h4>
+<h5 id="record-lock"><a class="anchor" href="#record-lock">#</a> Record Lock</h5>
+<ul>
+<li>记录锁 锁住某一条记录</li>
+<li>S X 锁之分 SS 不互斥 SX 互斥 XX XS 互斥</li>
+<li>当记录加上 X 锁 其他事务无法对该记录修改</li>
+</ul>
+<h5 id="gap-lock"><a class="anchor" href="#gap-lock">#</a> Gap Lock</h5>
+<ul>
+<li>间隙锁 锁住某一个范围 开区间</li>
+<li>间隙锁虽然也有 S X 之分 但是不互斥 间隙锁可以防止幻读的发生 所以不同事务的间隙锁可以有交集</li>
+</ul>
+<h5 id="next-key-lock"><a class="anchor" href="#next-key-lock">#</a> Next-Key Lock</h5>
+<ul>
+<li>间隙锁和记录锁的结合 左开右闭</li>
+<li>锁定一个范围 也锁住本身 即能保护该记录，又能阻止其他事务将新纪录插入到被保护记录前面的间隙中</li>
+<li>因为有记录锁的存在 因此如果一个事务获取与另一个事务相同范围的 Next-Key Lock 时会被阻塞</li>
+</ul>
+<h5 id="插入意向锁"><a class="anchor" href="#插入意向锁">#</a> 插入意向锁</h5>
+<ul>
+<li>一个事务要对某条记录操作 加锁时 将判断该记录是否被加了间隙锁 如果已经加锁将会被阻塞 并且生成插入意向锁</li>
+<li>表明有事务将要在此插入记录 处于等待状态</li>
+</ul>
+<h2 id="mysql是如何加行级锁的"><a class="anchor" href="#mysql是如何加行级锁的">#</a> MySQL 是如何加行级锁的？</h2>
+<blockquote>
+<p>MySQL 加锁的对象是索引 加锁的基本单位是 Next-Key Lock</p>
+</blockquote>
+<h3 id="唯一索引等值查询"><a class="anchor" href="#唯一索引等值查询">#</a> 唯一索引等值查询</h3>
+<ul>
+<li>记录存在 退化成记录锁</li>
+<li>记录不存在 退化成间隙锁</li>
+</ul>
+<figure class="highlight sql"><figcaption data-lang="SQL"></figcaption><table><tr><td data-num="1"></td><td><pre>id </pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token number">1</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token number">5</span></pre></td></tr></table></figure><blockquote>
+<p>查询 id = 2 不存在 加 (1,5) 间隙锁 即可 只要保证每次查询的结果相同即可 不用加 Next-Key Lock<br>
+ 查询 id = 5 存在 加记录锁 保证该记录不被修改也不被删除即可</p>
+</blockquote>
+<h3 id="唯一索引范围查询"><a class="anchor" href="#唯一索引范围查询">#</a> 唯一索引范围查询</h3>
+<ul>
+<li>大于 大于等于
+<ul>
+<li>大于 加 Next-Key Lock 最大值有一个 supermum record</li>
+<li>大于等于 如果记录值存在 加记录锁 其他的加 Next-Key Lock</li>
+</ul>
+</li>
+<li>小于 小于等于
+<ul>
+<li>记录值不存在
+<ul>
+<li>小于 小于等于 扫描到终止范围的记录时会退化成间隙锁 其他的 Next-Key Lock id = 1 5 10 查询 id &lt;6 10 加间隙锁 (5,10)</li>
+</ul>
+</li>
+<li>记录值存在
+<ul>
+<li>小于等于  对记录加记录锁 其他加 Next-Key Lock</li>
+<li>小于 对记录加间隙锁 其他 Next-Key Lock</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="非唯一索引等值查询"><a class="anchor" href="#非唯一索引等值查询">#</a> 非唯一索引等值查询</h3>
+<blockquote>
+<p>由于非唯一索引可能产生多条结果 所以查询时采用扫描的形式</p>
+</blockquote>
+<ul>
+<li><strong>记录不存在</strong> 对第一个不符合条件的二级索引加间隙锁 同时对相应的主键索引加间隙锁
+<ul>
+<li>比如 id=10 age=22 id=20 age=30 插入 age = 22 或 age = 30 时如果 id 不在间隙锁范围 就可以插入成功 否则失败</li>
+</ul>
+</li>
+<li><strong>记录存在</strong> 对第一个不符合条件的二级索引加间隙锁 同时对主键索引加间隙锁 记录存在的主键加记录锁 二级索引加 Next-Key Lock</li>
+</ul>
+<h3 id="非唯一索引范围查询"><a class="anchor" href="#非唯一索引范围查询">#</a> 非唯一索引范围查询</h3>
+<ul>
+<li>二级索引都加 Next-Key Lock 主键索引都加记录锁</li>
+</ul>
+<h2 id="insert是如何加锁的"><a class="anchor" href="#insert是如何加锁的">#</a> insert 是如何加锁的？</h2>
+<blockquote>
+<p>如果插入时没有遇到阻塞情况 正常插入 会在记录中维护隐藏列 trx_id 在需要锁的时机会生成相应的锁 这样使得插入效率提高也保证了安全性</p>
+</blockquote>
+<h3 id="插入范围存在间隙锁的情况"><a class="anchor" href="#插入范围存在间隙锁的情况">#</a> 插入范围存在间隙锁的情况</h3>
+<ul>
+<li>此时的事务想要获取插入意向锁 但是会被阻塞 插入意向锁处于等待状态 无法插入</li>
+</ul>
+<h3 id="唯一键情况"><a class="anchor" href="#唯一键情况">#</a> 唯一键情况</h3>
+<h4 id="主键索引"><a class="anchor" href="#主键索引">#</a> 主键索引</h4>
+<ul>
+<li>插入时主键索引发生冲突时 原记录会被插入的事务加上 S 记录锁</li>
+</ul>
+<h4 id="唯一-二级索引"><a class="anchor" href="#唯一-二级索引">#</a> 唯一 二级索引</h4>
+<ul>
+<li>对于原表中就有的记录 插入时发生冲突 原记录会被加上 S Next-Key Lock
+<ul>
+<li>当有事务想要查询该条记录时 想要加上 X 型的记录锁 S 和 X 是冲突的因此会发生阻塞</li>
+</ul>
+</li>
+<li>对于原表没有的记录 a 事务执行插入 成功 此时没有锁 b 事务插入同样的数据 由于 a 事务还没提交 所以 a 事务插入的记录会由隐式锁变为显示 X 记录锁 b 事务想要 S Next-Key Lock S 和 X 冲突发生阻塞</li>
+</ul>
+<h2 id="日志"><a class="anchor" href="#日志">#</a> 日志</h2>
+<h3 id="undo-log"><a class="anchor" href="#undo-log">#</a> undo log</h3>
+<blockquote>
+<p>用于记录事务操作数据前的旧版本数据 在记录中还有 trx_id 和 roll_pointer roll_pointer 指向旧版本记录 形成版本链 方便事务回滚<br>
+同时也是 MVCC 的核心部分 保证原子性</p>
+</blockquote>
+<ul>
+<li><strong>更新前</strong> 记录更新列的旧值 回滚时更新为旧值</li>
+<li><strong>删除前</strong> 记录删除前的原记录 回滚时 插入原记录</li>
+<li><strong>插入时</strong> 记录主键值 回滚时 删除主键所在记录</li>
+</ul>
+<h3 id="buffer-pool"><a class="anchor" href="#buffer-pool">#</a> Buffer Pool</h3>
+<blockquote>
+<p>对数据操作时 如果 Buffer Pool 有该条数据 就对数据操作 速度快效率高 其中包含索引页 数据页 undo 页</p>
+</blockquote>
+<ul>
+<li>InnoDB 和磁盘数据交互以页为单位 每个页大小为 16KB 所以 Buffer Pool 中的页也根据 16KB 大小划分</li>
+<li>如果对数据更新或删除 首先对存在 Buffer Pool 中的数据操作 将对应页设置为脏页 不会立即刷盘 交给后台选择合适时机刷盘持久化</li>
+<li>查询一条记录时，InnoDB 会把整个页的数据加载到 Buffer Pool 中，将页加载到 Buffer Pool 后，再通过页里的「页目录」去定位到某条具体的记录</li>
+</ul>
+<h4 id="buffer-pool-如何管理空闲页"><a class="anchor" href="#buffer-pool-如何管理空闲页">#</a> Buffer Pool 如何管理空闲页</h4>
+<ul>
+<li>使用控制块把空闲的缓存页连接起来 作为 Free 链表 头节点的控制块包含头节点和尾节点的地址以及缓存页数量等信息</li>
+<li>当有磁盘页对 Buffer Pool 做交互时 就在 Free 链表选取空闲页 然后移除 Free 链表的空闲页控制块<br>
+ Buffer Pool 如何管理脏页</li>
+<li>和 Free 链表类似 只是 Flush 链表中的控制块地址是脏页</li>
+<li>后台进程从 Flush 链表选取脏页刷盘 然后移除在 Flush 链表的控制块</li>
+</ul>
+<h4 id="如何提高缓存命中率"><a class="anchor" href="#如何提高缓存命中率">#</a> 如何提高缓存命中率</h4>
+<blockquote>
+<p>对于经常访问的数据 可以放在 Buffer Pool 的时间长一些 不经常访问的就可以移除<br>
+使用 LRU 算法对其管理</p>
+<ul>
+<li>Buffer Pool 访问到数据 将该缓存页移动到链表头部</li>
+<li>从磁盘加载数据到 Buffer Pool 加载到链表头部 并移除尾结点</li>
+</ul>
+</blockquote>
+<ul>
+<li>Free Page：存放在 Free 链表</li>
+<li>Clean Page：存放在 LRU 链表</li>
+<li>Dirty Page：存放在 LRU 链表和 Flush 链表</li>
+</ul>
+<h4 id="buffer-pool-解决预读失效"><a class="anchor" href="#buffer-pool-解决预读失效">#</a> Buffer Pool 解决预读失效</h4>
+<blockquote>
+<p>访问某个页的数据时 可能相邻的页也会被访问到 所以 MySQL 从磁盘加载数据到 Buffer Pool 时会把相邻的页也加载到缓冲区<br>
+如果某个预读页长时间不会被访问到 有可能会导致真正的热数据被移除链表 预读失效了</p>
+</blockquote>
+<ul>
+<li>MySQL 实现 LRU 算法 将前部分链表设计为 young 区  后部分设计为 old 区</li>
+<li>预读的页先加入到 old 区头部 只有被访问时才会被加入到 young 区头部</li>
+<li>这样不会影响热数据 也能更好管理不会被访问的预读页</li>
+</ul>
+<h4 id="buffer-pool-解决-buffer-pool-污染"><a class="anchor" href="#buffer-pool-解决-buffer-pool-污染">#</a> Buffer Pool 解决 Buffer Pool 污染</h4>
+<blockquote>
+<p>之前的设计方案 如果对数据进行全表扫描或者扫描局部数据 将数据页加载到 young 区 导致真正的热数据被移除<br>
+这就是 Buffer Pool 污染</p>
+</blockquote>
+<ul>
+<li>MySQL 对数据页移动到 young 区提高门槛 设置了一个时间间隔 访问 Buffer Pool 数据时会记录该时间点</li>
+<li>如果后续访问与第一次访问的时间在设定的时间间隔内 那不会加入到 young 区 否则加入</li>
+<li>只有满足被访问和停留 old 时间超过设定的时间间隔才会被加入到 young 区</li>
+<li>为了防止 young 区域节点频繁移动到头部。young 区域前面 1/4 被访问不会移动到链表头部，只有后面的 3/4 被访问了才会</li>
+</ul>
+<h3 id="redo-log"><a class="anchor" href="#redo-log">#</a> redo log</h3>
+<blockquote>
+<p>用于记录某个数据页做了什么操作 在事务操作完数据后记录 这个时候数据就算更新完成 作用是防止数据丢失 保证持久性</p>
+</blockquote>
+<ul>
+<li>对数据操作时 先在 Buffer Pool 存储更新的数据 然后再写入 redo log 的具体操作</li>
+<li>后台会在适当时间进行 Buffer Pool 刷盘 这就是 <strong>WAL</strong> 技术</li>
+<li>当然事务提交后就可以 redo log 落盘 不必等到 Buffer Pool 落盘</li>
+<li>如果应用宕机造成数据丢失 重启后可以根据 redo log 恢复数据 这就是 <strong>crash-safe</strong> 技术</li>
+<li>redo log 刷盘是顺序写 比之前的随机写效率高 提升落盘性能</li>
+</ul>
+<h3 id="redo-log-buffer"><a class="anchor" href="#redo-log-buffer">#</a> redo log buffer</h3>
+<blockquote>
+<p>redo log 不是产生后立马刷盘 而是先保存到内存的 redo log buffer 待合适时机再落盘</p>
+</blockquote>
+<h4 id="落盘时机"><a class="anchor" href="#落盘时机">#</a> 落盘时机</h4>
+<ul>
+<li>MySQL 正常关机</li>
+<li>每隔一秒刷盘</li>
+<li>存入 redo log buffer 的数据超过 buffer 内存一半时刷盘</li>
+<li>事务提交后由 innodb_flush_log_at_trx_commit 控制刷盘
+<ul>
+<li>0 保存到 buffer 不刷盘 每隔一秒 写入 Page Cache 再调用 fsync 刷盘</li>
+<li>1 直接刷盘</li>
+<li>2 写入 Page Cache 每隔一秒 刷盘</li>
+</ul>
+</li>
+<li><img loading="lazy" data-src="87E59A97E59796E4B6BBE59985E887A8%8B.drawio.png" alt="87E59A97E59796E4B6BBE59985E887A8%8B.drawio"></li>
+<li><img loading="lazy" data-src="checkpoint.png" alt="checkpoint">
+<ul>
+<li>默认情况下， InnoDB 存储引擎有 1 个重做日志文件组 (redo log Group)，「重做日志文件组」由有 2 个 redo log 文件组成</li>
+<li>如果两个文件满了 write pos 和 check point 重合 MySQL 事务会被阻塞 等到 Buffer Pool 数据落盘后 check point 往后走 又继续更新 redo log MySQL 正常运行</li>
+</ul>
+</li>
+</ul>
+<h3 id="binlog"><a class="anchor" href="#binlog">#</a> binlog</h3>
+<h4 id="为什么需要-binlog"><a class="anchor" href="#为什么需要-binlog">#</a> 为什么需要 binlog?</h4>
+<ul>
+<li>和 MySQL 时间线有关系 MyISAM 引擎只提供了 binlog 记录日志 没有 crash-safe 能力 后来的 InnoDB 引擎 以插件形式引入 MySQL，自己实现了 redo log 和 undo log 实现 crash-safe 和 WAL 技术</li>
+</ul>
+<h4 id="binlog-和-redo-log-的区别"><a class="anchor" href="#binlog-和-redo-log-的区别">#</a> binlog 和 redo log 的区别</h4>
+<ul>
+<li>binlog 在 server 层 每个存储引擎都可以使用 redo log 是 InnoDB 专属的</li>
+<li>写入日志方式不同 binlog 是追加写 写满文件另起起一个继续写 redo log 是循环写</li>
+<li>文件格式不同
+<ul>
+<li>binlog
+<ul>
+<li>statement 记录 SQL 语句 但是使用动态函数会导致主从不一致</li>
+<li>row 记录数据 如果更新多条数据 statement 可能一条语句就完成 大小不一样</li>
+<li>mixed 混合 合适的时机选择合适的格式</li>
+</ul>
+</li>
+<li>redo log
+<ul>
+<li>物理日志 记录在 xx 页做了什么</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>binlog 用于主从复制 备份恢复 redo log 用于掉电恢复</li>
+</ul>
+<h4 id="主从复制怎么实现的"><a class="anchor" href="#主从复制怎么实现的">#</a> 主从复制怎么实现的？</h4>
+<ul>
+<li>主库提交事务时 会把日志写入 binlog 后再提交事务</li>
+<li>然后创建一个 log dump 线程用于给从库主从复制</li>
+<li>从库连接 log dump 线程 把 binlog 写入中继日志 relay log</li>
+<li>回放 binlog 执行 relay log 的 SQL 实现主从数据一致</li>
+</ul>
+<h4 id="三种复制模式"><a class="anchor" href="#三种复制模式">#</a> 三种复制模式</h4>
+<ul>
+<li>同步复制 主库等所有从库响应复制成功后再返回客户端响应 性能损耗大</li>
+<li>异步复制 主库提交事务后立即响应客户端 不等从库的响应 主库宕机可能会导致复制失败</li>
+<li>半同步复制 两种混合 折中方案 只要有一个从库复制完就算成功 响应客户端</li>
+</ul>
+<h4 id="刷盘时机"><a class="anchor" href="#刷盘时机">#</a> 刷盘时机</h4>
+<ul>
+<li>binlog 先一次性写入内存缓冲区 binlog cache 一个事务完整写入 binlog 保证原子性</li>
+<li>由 <strong>sync_binlog</strong> 参数决定刷盘时机：
+<ul>
+<li>0 将 cache 写入操作系统的 page cache 由操作系统决定刷盘时机</li>
+<li>1 写入 page cache 后立即调用 fsync 刷盘</li>
+<li>N (N&gt; 1) 待累计 N 个事务后再刷盘</li>
+</ul>
+</li>
+</ul>
+<h3 id="两阶段提交"><a class="anchor" href="#两阶段提交">#</a> 两阶段提交</h3>
+<h4 id="为什么需要两阶段提交"><a class="anchor" href="#为什么需要两阶段提交">#</a> 为什么需要两阶段提交？</h4>
+<ul>
+<li>如果 redo log 刷盘了 但是 binlog 还没刷盘就宕机了 导致从库的数据不一致</li>
+<li>如果 binlog 刷盘了 但是 redo log 还没刷盘就宕机了 导致主库的数据不一致</li>
+</ul>
+<h4 id="两阶段提交的执行过程"><a class="anchor" href="#两阶段提交的执行过程">#</a> 两阶段提交的执行过程</h4>
+<blockquote>
+<p>执行 commit 语句后 MySQL 内部开启 XA 事务执行两阶段提交</p>
+</blockquote>
+<ul>
+<li><img loading="lazy" data-src="B8E9B6AEE690BA%A4.drawio.png" alt="B8E9B6AEE690BA%A4.drawio"></li>
+<li><strong>prepare</strong> 阶段：把 XID 写入 redo log 然后对应的事务设置 prepare 状态 redo log 刷盘 刷盘参数设置 1</li>
+<li><strong>commit</strong> 阶段：把 XID 写入 binlog 然后对应的事务 redo log 设置 commit 状态并刷盘 binlog 刷盘 刷盘参数设置 1</li>
+</ul>
+<blockquote>
+<p>根据日志文件 XID 判断是否需要回滚</p>
+</blockquote>
+<ul>
+<li><img loading="lazy" data-src="B8E9B6AEE690BAE5A9BAE7B9.png" alt="B8E9B6AEE690BAE5A9BAE7B9"></li>
+<li><strong>时刻 A 宕机</strong>：redo log 有 XID binlog 没有 XID 会判定为两阶段提交失败 事务回滚</li>
+<li><strong>时刻 B 宕机</strong>：redo log 和 binlog 都有 XID 判定已经刷盘持久化 事务提交成功</li>
+<li>由于两个参数设置 1 会导致大量磁盘 IO 多个事务存在锁竞争所以 MySQL 设置了 binlog 组提交
+<ul>
+<li>flush 阶段：多个 binlog 文件按顺序写入 page cache 不刷盘 该阶段还做 redo log 的组刷盘</li>
+<li>sync 阶段：多个 binlog 文件一次刷盘</li>
+<li>commit 阶段：各个事务 redo log 做 commit 操作</li>
+<li>redo log 也有组提交（5.7 之后）放在 flush 阶段延迟写 redo log 一次性写入磁盘 提高效率</li>
+</ul>
+</li>
+</ul>
+<h2 id="索引"><a class="anchor" href="#索引">#</a> 索引</h2>
+<h3 id="按照数据结构分类"><a class="anchor" href="#按照数据结构分类">#</a> 按照数据结构分类</h3>
+<blockquote>
+<p>B+Tree 索引 Hash 索引 Full-Text 索引</p>
+</blockquote>
+<h4 id="btree-索引"><a class="anchor" href="#btree-索引">#</a> B+Tree 索引</h4>
+<ul>
+<li>InnoDB 存储引擎的默认索引类型 分为主键索引和二级索引</li>
+</ul>
+<blockquote>
+<p>主键（聚簇）索引选择：</p>
+<ol>
+<li>默认使用主键作为主键索引</li>
+<li>没有主键索引 默认选择第一个非 NULL 的唯一键做主键索引</li>
+<li>两个都没有 InnoDB 引擎自动生成隐式自增 id 作为主键索引<br>
+其他索引为二级索引 非聚簇索引 这些索引默认都是用 B+Tree 作为底层数据结构</li>
+</ol>
+</blockquote>
+<ul>
+<li>主键索引的 B+Tree 中，非叶子节点存放主键 叶子节点存放主键和数据</li>
+<li>二级索引的 B+Tree 中，非叶子节点存放二级索引 叶子节点存放主键值</li>
+<li>回表：当使用二级索引查询时 先在二级索引树找到主键值，再在主键索引树寻找数据</li>
+<li>索引覆盖：如果查询的是主键值 二级索引就可以查询到结果 不用回表</li>
+<li>每一次获取节点的数据进行比较，就相当于一次磁盘 IO</li>
+</ul>
+<h4 id="btree-和其他数据结构的对比"><a class="anchor" href="#btree-和其他数据结构的对比">#</a> B+Tree 和其他数据结构的对比</h4>
+<ol>
+<li>数组二分查找</li>
+<li>查询效率是 O (logn)</li>
+<li>插入和删除效率是 O (n) 数据量越来越大不方便 消耗性能太大</li>
+<li>二分搜索树</li>
+<li>相较于数组 解决了插入效率低的问题 不必连续排列 插入时不用全部向后移动</li>
+<li>但是可能会退化成链表 树的高度很高 这样时间复杂度又回到 O (n) 了 磁盘 IO 的次数也会很高</li>
+<li>平衡二分搜索树</li>
+<li>对左右子树的高度差进行限制 避免退化成链表</li>
+<li>因为是二叉树 每个节点最多只能有 2 个子节点 数据量大的时候树的高度还是会很高</li>
+<li>B 树</li>
+<li>每个节点可以有多个子节点 比二叉搜索树更矮胖 高度降低 磁盘 IO 次数大大减少</li>
+<li>每个节点存储 索引 + 记录 因此搜索的时间复杂度有波动 可能一次就查询到 也可能需要到叶子节点才能查询到结果</li>
+<li>不利于范围查询（中序遍历）会产生大量无用的磁盘 IO，也不利于插入和删除 因为没有冗余节点 可能发生复杂的树结构变化</li>
+<li>B + 树</li>
+<li>非叶子节点只存储索引 因此每一个非叶子节点可以存储更多的索引 比 B 树更矮胖</li>
+<li>每个节点的子节点都包含父节点的索引 且是子节点的最大或者最小值 因此会有大量冗余节点 这也使得插入和删除不会发生复杂的树变化 效率比 B 树高很多</li>
+<li>叶子节点采用双向链表连接 范围查询时向右或者向左遍历即可 避免了树的遍历</li>
+<li>非叶子节点有多少个子节点 就有多少个索引</li>
+<li>InnoDB 存储引擎中每个节点存放的数据单位是页</li>
+</ol>
+<h4 id="mysql-中的-btree"><a class="anchor" href="#mysql-中的-btree">#</a> MySQL 中的 B+Tree</h4>
+<ol>
+<li>B+Tree 使用页（16KB）为节点的基本单位 页中的文件头有前后两个指针 构成双向链表<br>
+<img loading="lazy" data-src="fabd6dadd61a0aa342d7107213955a72.png" alt="fabd6dadd61a0aa342d7107213955a72"></li>
+<li>User Records 中的数据形式：<br>
+<img loading="lazy" data-src="261011d237bec993821aa198b97ae8ce.png" alt="261011d237bec993821aa198b97ae8ce"></li>
+</ol>
+<ul>
+<li>用户记录中的数据用主键的顺序组成单向链表 插入和删除的效率非常快 缺点是查询效率慢 因此还设置了一个页目录 记录索引的作用</li>
+<li>页目录中将记录分组 每个分组按照主键顺序构成单链表 有最小记录和最大记录 每个分组中的最后一条记录就是最大记录 最大记录的地址偏移量就是该组的页目录 而且最大记录还存储了每组的记录条数</li>
+<li>页目录的槽 (slot) 按照地址偏移量的先后顺序组成，因此在查询时使用二分法快速查询页所在的目录 进入具体分组单链表遍历查询结果</li>
+<li>为了避免分组中遍历查询复杂度回到 O (n) 所以 InnoDB 对每个分组进行规定：
+<ul>
+<li>第一组只能有一条记录</li>
+<li>最后一组 1~8 条记录</li>
+<li>其他组 4~8 条记录</li>
+</ul>
+</li>
+</ul>
+<h3 id="按照字段个数分类"><a class="anchor" href="#按照字段个数分类">#</a> 按照字段个数分类</h3>
+<h4 id="联合索引"><a class="anchor" href="#联合索引">#</a> 联合索引</h4>
+<ul>
+<li>由数据库表的多个字段构成一个索引</li>
+<li>应该将区分度高的字段靠前</li>
+<li>存在最左匹配原则</li>
+<li>联合索引查询时可能有的字段不会使用到</li>
+</ul>
+<h4 id="最左匹配原则"><a class="anchor" href="#最左匹配原则">#</a> 最左匹配原则</h4>
+<blockquote>
+<p>联合索引根据靠左的字段进行排序 根据字符串的最左前缀进行排序</p>
+</blockquote>
+<ul>
+<li>只有第一个字段是全局有序的 剩余字段局部有序 全局无序 这是根据前一个字段排序后决定的</li>
+<li>如果前一个字段有多个相同值 后一个字段就会局部有序</li>
+<li>范围查询时遇到＞＜会停止匹配 后面的字段不会用到联合索引 ，≥≤ between like xxx% 时会继续匹配 相同的情况下进行后面字段排序 用到了联合索引</li>
+<li>对于需要 order by,group by 的字段排序 应该加入到联合索引 进行排序</li>
+</ul>
+<h4 id="索引下推"><a class="anchor" href="#索引下推">#</a> 索引下推</h4>
+<ul>
+<li>使用联合索引查询时，如果第一个字段匹配 第二个字段没有使用到索引 就会根据二级索引产生回表，然后返回数据给 Server 层进行后面字段的比较</li>
+<li>而如果使用索引下推 会将后面的字段也直接在存储引擎层进行比较过滤 返回过滤后的数据 减少回表次数</li>
+</ul>
+<h3 id="索引失效"><a class="anchor" href="#索引失效">#</a> 索引失效</h3>
+<h4 id="使用左左右模糊匹配-xx-xx"><a class="anchor" href="#使用左左右模糊匹配-xx-xx">#</a> 使用左 / 左右模糊匹配 % xx % xx%</h4>
+<blockquote>
+<p>MySQL 存储引擎 InnoDB 使用 B+Tree 数据结构 按照索引值进行排序 按照索引的前缀进行比较查找 左或左右模糊匹配只有后缀 前缀无法确定 不满足索引的有序性进行查找</p>
+</blockquote>
+<h4 id="对索引进行函数运算"><a class="anchor" href="#对索引进行函数运算">#</a> 对索引进行函数运算</h4>
+<blockquote>
+<p>B+Tree 存储的是索引值 不是函数表达式运算后的值 所以会索引失效</p>
+</blockquote>
+<h4 id="对索引进行表达式运算"><a class="anchor" href="#对索引进行表达式运算">#</a> 对索引进行表达式运算</h4>
+<blockquote>
+<p>和函数类似 比如 id=10-1 可以使用索引比较 但是 id-1=10 就不能了 因为 id-1 表达式不是索引</p>
+</blockquote>
+<h4 id="联合索引没有使用最左匹配原则"><a class="anchor" href="#联合索引没有使用最左匹配原则">#</a> 联合索引没有使用最左匹配原则</h4>
+<blockquote>
+<p>联合索引创建后 是根据前一个字段排序之后才会对第二个字段排序，所以对联合索引查询的时候如果去掉了之前的字段 后面的字段就无法排序比较</p>
+</blockquote>
+<h4 id="对索引隐式转换"><a class="anchor" href="#对索引隐式转换">#</a> 对索引隐式转换</h4>
+<blockquote>
+<p>MySQL 默认会把字符串转换为整数类型 如果索引是字符串类型 对索引查询时使用整数类型 会对索引进行隐式转换 其实也是 CAST 函数 导致索引失效</p>
+</blockquote>
+<h4 id="where-条件使用-or"><a class="anchor" href="#where-条件使用-or">#</a> WHERE 条件使用 OR</h4>
+<blockquote>
+<p>如果索引使用了 OR，另一个普通字段也在 OR 语句里 由于只要满足一个条件就能查询 所以普通字段的加入就会导致索引失效</p>
+</blockquote>
+<h3 id="xxx-一定会索引失效吗"><a class="anchor" href="#xxx-一定会索引失效吗">#</a> % xxx 一定会索引失效吗？</h3>
+<ul>
+<li>如果表中有非索引字段 而查询使用二级索引左模糊匹配 因为不满足索引的有序性查找 会走全扫描二级索引树 再回表根据主键索引查找数据 优化器认为这样太累了 会走全扫描表 索引失效</li>
+<li>如果表中只有主键和二级索引 查询使用二级索引左模糊匹配 会全扫描二级索引树 索引生效 （为什么不回表？ 因为二级索引树就包含了很多所有字段 并且主键索引还会有额外的事务 id 等 而且已经找到了所有字段就会走覆盖索引）</li>
+</ul>
+<h2 id="count和-count1性能有区别吗"><a class="anchor" href="#count和-count1性能有区别吗">#</a> COUNT (*) 和 COUNT (1) 性能有区别吗</h2>
+<blockquote>
+<p>COUNT () 函数是按照条件查询后 统计函数字段不为 NULL 的记录条数<br>
+ Server 层会维护一个 count 变量 存储引擎每返回一条数据就加一 最后返回 count 的值</p>
+</blockquote>
+<h3 id="count主键"><a class="anchor" href="#count主键">#</a> COUNT (主键)</h3>
+<ul>
+<li>默认使用二级索引（存储内容比聚簇索引更少 性能更快） 没有就使用聚簇索引</li>
+<li>返回主键不为 NULL 的记录</li>
+</ul>
+<h3 id="count-和-count1"><a class="anchor" href="#count-和-count1">#</a> COUNT (*) 和 COUNT (1)</h3>
+<ul>
+<li>官方文档说明两个性能一样</li>
+<li>count (*) 会转化为 count (0) 1 和 0 永远都不为 NULL 所以会查询表中所有记录条数 但不计算字段</li>
+</ul>
+<h3 id="count普通字段"><a class="anchor" href="#count普通字段">#</a> COUNT (普通字段)</h3>
+<ul>
+<li>性能是最差的</li>
+</ul>
+<div class="tags"><a href="../tags/sql-MySQL/" rel="tag"><i class="ic i-tag"></i>sql,MySQL</a></div></div><footer><div class="meta"><span class="icon"><i class="ic i-eye"></i></span><span>此文章已被阅读次数:</span><span class="waline-pageview-count" id="twikoo_visitors" data-path="/java-mysql-advance-2024-11-28-MySQL/">正在加载...</span><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新于</span><time title="修改时间：2024-11-28 16:21:02" itemprop="dateModified" datetime="2024-11-28T16:21:02+08:00">2024-11-28</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>赞赏</button><p>请我喝[茶]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" data-src="../assets/wechatpay.png" alt="Maple Plus 微信支付"><p>微信支付</p></div><div><img loading="lazy" data-src="../assets/alipay.png" alt="Maple Plus 支付宝"><p>支付宝</p></div></div></div><div id="copyright"><ul><li class="author"><strong>本文作者：</strong>Maple Plus<i class="ic i-at"><em>@</em></i>Maple</li><li class="link"><strong>本文链接：</strong><a href="https://blog.fxink.cn/java-mysql-advance-2024-11-28-MySQL/" title="MySQL高级">https://blog.fxink.cn/java-mysql-advance-2024-11-28-MySQL/</a></li><li class="license"><strong>版权声明：</strong>本站所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="../maozedong-first-002-%E4%B8%AD%E5%9B%BD%E7%9A%84%E7%BA%A2%E8%89%B2%E6%94%BF%E6%9D%83%E4%B8%BA%E4%BB%80%E4%B9%88%E8%83%BD%E5%A4%9F%E5%AD%98%E5%9C%A8%EF%BC%9F/" rel="prev" itemprop="url" data-background-image="https:&#x2F;&#x2F;image.fxink.cn&#x2F;maple&#x2F;15662822217126208.png" title="中国的红色政权为什么能够存在？"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>第一卷</span><h3>中国的红色政权为什么能够存在？</h3></a></div><div class="item right"><a href="../java-shortlink-shortlink/" rel="next" itemprop="url" data-background-image="https:&#x2F;&#x2F;image.fxink.cn&#x2F;maple&#x2F;15749360863056192.png" title="枫短链"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>枫短链</span><h3>枫短链</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目录"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%A7%E8%A1%8C%E4%B8%80%E6%9D%A1-select-%E7%9A%84%E8%BF%87%E7%A8%8B"><span class="toc-number">1.</span> <span class="toc-text"> 执行一条 SELECT 的过程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9E%E6%8E%A5%E5%99%A8"><span class="toc-number">1.1.</span> <span class="toc-text"> 连接器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9F%A5%E8%AF%A2%E7%BC%93%E5%AD%98"><span class="toc-number">1.2.</span> <span class="toc-text"> 查询缓存</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E6%9E%90%E5%99%A8"><span class="toc-number">1.3.</span> <span class="toc-text"> 分析器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8"><span class="toc-number">1.4.</span> <span class="toc-text"> 预处理器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E5%8C%96%E5%99%A8"><span class="toc-number">1.5.</span> <span class="toc-text"> 优化器</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E8%A1%8C%E8%AE%B0%E5%BD%95%E6%98%AF%E6%80%8E%E4%B9%88%E5%AD%98%E5%82%A8%E7%9A%84"><span class="toc-number">2.</span> <span class="toc-text"> 一行记录是怎么存储的？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E7%A9%BA%E9%97%B4%E7%BB%93%E6%9E%84"><span class="toc-number">2.1.</span> <span class="toc-text"> 表空间结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#compact-%E8%A1%8C%E6%A0%BC%E5%BC%8F"><span class="toc-number">2.2.</span> <span class="toc-text"> Compact 行格式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%98%E9%95%BF%E5%AD%97%E6%AE%B5%E9%95%BF%E5%BA%A6%E5%88%97%E8%A1%A8"><span class="toc-number">2.2.1.</span> <span class="toc-text"> 变长字段长度列表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#null-%E5%88%97%E8%A1%A8"><span class="toc-number">2.2.2.</span> <span class="toc-text"> NULL 列表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AE%B0%E5%BD%95%E5%A4%B4%E4%BF%A1%E6%81%AF"><span class="toc-number">2.2.3.</span> <span class="toc-text"> 记录头信息</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%B0%E5%BD%95%E7%9C%9F%E5%AE%9E%E6%95%B0%E6%8D%AE"><span class="toc-number">2.3.</span> <span class="toc-text"> 记录真实数据</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9A%90%E8%97%8F%E5%88%97"><span class="toc-number">2.3.1.</span> <span class="toc-text"> 隐藏列</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E8%A1%8C%E8%AE%B0%E5%BD%95-varcharn%E4%B8%AD-n-%E6%9C%80%E5%A4%A7%E5%8F%96%E5%80%BC%E5%A4%9A%E5%B0%91"><span class="toc-number">2.4.</span> <span class="toc-text"> 一行记录 VARCHAR (n) 中 n 最大取值多少？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%8C%E6%BA%A2%E5%87%BA%E6%95%B0%E6%8D%AE%E6%80%8E%E4%B9%88%E8%A7%A3%E5%86%B3"><span class="toc-number">2.5.</span> <span class="toc-text"> 行溢出数据怎么解决？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E6%80%8E%E4%B9%88%E5%AE%9E%E7%8E%B0"><span class="toc-number">3.</span> <span class="toc-text"> 事务的隔离怎么实现？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%B6%E8%A1%8C%E4%BA%8B%E5%8A%A1%E4%BA%A7%E7%94%9F%E7%9A%84%E9%97%AE%E9%A2%98"><span class="toc-number">3.1.</span> <span class="toc-text"> 并行事务产生的问题：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB"><span class="toc-number">3.2.</span> <span class="toc-text"> 事务的隔离级别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E5%8F%AF%E9%87%8D%E5%A4%8D%E8%AF%BB%E7%9A%84%E6%96%B9%E6%A1%88"><span class="toc-number">3.3.</span> <span class="toc-text"> 解决可重复读的方案</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#mvcc%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84"><span class="toc-number">4.</span> <span class="toc-text"> MVCC 是如何工作的？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#read-view"><span class="toc-number">4.1.</span> <span class="toc-text"> Read-View</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%81%9A%E7%B0%87%E7%B4%A2%E5%BC%95%E7%9A%84%E4%B8%A4%E4%B8%AA%E9%9A%90%E8%97%8F%E5%88%97"><span class="toc-number">4.2.</span> <span class="toc-text"> 聚簇索引的两个隐藏列</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mvcc%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="toc-number">4.3.</span> <span class="toc-text"> MVCC 工作原理</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%AF%E9%87%8D%E5%A4%8D%E8%AF%BB%E7%9A%84mvcc"><span class="toc-number">5.</span> <span class="toc-text"> 可重复读的 MVCC</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#mysql%E9%94%81"><span class="toc-number">6.</span> <span class="toc-text"> MySQL 锁</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%94%81%E5%88%86%E7%B1%BB"><span class="toc-number">6.1.</span> <span class="toc-text"> 锁分类</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%A8%E5%B1%80%E9%94%81"><span class="toc-number">6.1.1.</span> <span class="toc-text"> 全局锁</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%A8%E7%BA%A7%E9%94%81"><span class="toc-number">6.1.2.</span> <span class="toc-text"> 表级锁</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%A1%A8%E9%94%81"><span class="toc-number">6.1.2.1.</span> <span class="toc-text"> 表锁</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%85%83%E6%95%B0%E6%8D%AE%E9%94%81mdl"><span class="toc-number">6.1.2.2.</span> <span class="toc-text"> 元数据锁 (MDL)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%84%8F%E5%90%91%E9%94%81"><span class="toc-number">6.1.2.3.</span> <span class="toc-text"> 意向锁</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#auto-inc-%E9%94%81"><span class="toc-number">6.1.2.4.</span> <span class="toc-text"> AUTO-INC 锁</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%8C%E7%BA%A7%E9%94%81"><span class="toc-number">6.1.3.</span> <span class="toc-text"> 行级锁</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#record-lock"><span class="toc-number">6.1.3.1.</span> <span class="toc-text"> Record Lock</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#gap-lock"><span class="toc-number">6.1.3.2.</span> <span class="toc-text"> Gap Lock</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#next-key-lock"><span class="toc-number">6.1.3.3.</span> <span class="toc-text"> Next-Key Lock</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%8F%92%E5%85%A5%E6%84%8F%E5%90%91%E9%94%81"><span class="toc-number">6.1.3.4.</span> <span class="toc-text"> 插入意向锁</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#mysql%E6%98%AF%E5%A6%82%E4%BD%95%E5%8A%A0%E8%A1%8C%E7%BA%A7%E9%94%81%E7%9A%84"><span class="toc-number">7.</span> <span class="toc-text"> MySQL 是如何加行级锁的？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%94%AF%E4%B8%80%E7%B4%A2%E5%BC%95%E7%AD%89%E5%80%BC%E6%9F%A5%E8%AF%A2"><span class="toc-number">7.1.</span> <span class="toc-text"> 唯一索引等值查询</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%94%AF%E4%B8%80%E7%B4%A2%E5%BC%95%E8%8C%83%E5%9B%B4%E6%9F%A5%E8%AF%A2"><span class="toc-number">7.2.</span> <span class="toc-text"> 唯一索引范围查询</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%9E%E5%94%AF%E4%B8%80%E7%B4%A2%E5%BC%95%E7%AD%89%E5%80%BC%E6%9F%A5%E8%AF%A2"><span class="toc-number">7.3.</span> <span class="toc-text"> 非唯一索引等值查询</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%9E%E5%94%AF%E4%B8%80%E7%B4%A2%E5%BC%95%E8%8C%83%E5%9B%B4%E6%9F%A5%E8%AF%A2"><span class="toc-number">7.4.</span> <span class="toc-text"> 非唯一索引范围查询</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#insert%E6%98%AF%E5%A6%82%E4%BD%95%E5%8A%A0%E9%94%81%E7%9A%84"><span class="toc-number">8.</span> <span class="toc-text"> insert 是如何加锁的？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8F%92%E5%85%A5%E8%8C%83%E5%9B%B4%E5%AD%98%E5%9C%A8%E9%97%B4%E9%9A%99%E9%94%81%E7%9A%84%E6%83%85%E5%86%B5"><span class="toc-number">8.1.</span> <span class="toc-text"> 插入范围存在间隙锁的情况</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%94%AF%E4%B8%80%E9%94%AE%E6%83%85%E5%86%B5"><span class="toc-number">8.2.</span> <span class="toc-text"> 唯一键情况</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BB%E9%94%AE%E7%B4%A2%E5%BC%95"><span class="toc-number">8.2.1.</span> <span class="toc-text"> 主键索引</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%94%AF%E4%B8%80-%E4%BA%8C%E7%BA%A7%E7%B4%A2%E5%BC%95"><span class="toc-number">8.2.2.</span> <span class="toc-text"> 唯一 二级索引</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A5%E5%BF%97"><span class="toc-number">9.</span> <span class="toc-text"> 日志</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undo-log"><span class="toc-number">9.1.</span> <span class="toc-text"> undo log</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#buffer-pool"><span class="toc-number">9.2.</span> <span class="toc-text"> Buffer Pool</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#buffer-pool-%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%E7%A9%BA%E9%97%B2%E9%A1%B5"><span class="toc-number">9.2.1.</span> <span class="toc-text"> Buffer Pool 如何管理空闲页</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E7%BC%93%E5%AD%98%E5%91%BD%E4%B8%AD%E7%8E%87"><span class="toc-number">9.2.2.</span> <span class="toc-text"> 如何提高缓存命中率</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#buffer-pool-%E8%A7%A3%E5%86%B3%E9%A2%84%E8%AF%BB%E5%A4%B1%E6%95%88"><span class="toc-number">9.2.3.</span> <span class="toc-text"> Buffer Pool 解决预读失效</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#buffer-pool-%E8%A7%A3%E5%86%B3-buffer-pool-%E6%B1%A1%E6%9F%93"><span class="toc-number">9.2.4.</span> <span class="toc-text"> Buffer Pool 解决 Buffer Pool 污染</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#redo-log"><span class="toc-number">9.3.</span> <span class="toc-text"> redo log</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#redo-log-buffer"><span class="toc-number">9.4.</span> <span class="toc-text"> redo log buffer</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%90%BD%E7%9B%98%E6%97%B6%E6%9C%BA"><span class="toc-number">9.4.1.</span> <span class="toc-text"> 落盘时机</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#binlog"><span class="toc-number">9.5.</span> <span class="toc-text"> binlog</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81-binlog"><span class="toc-number">9.5.1.</span> <span class="toc-text"> 为什么需要 binlog?</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#binlog-%E5%92%8C-redo-log-%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">9.5.2.</span> <span class="toc-text"> binlog 和 redo log 的区别</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E6%80%8E%E4%B9%88%E5%AE%9E%E7%8E%B0%E7%9A%84"><span class="toc-number">9.5.3.</span> <span class="toc-text"> 主从复制怎么实现的？</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E7%A7%8D%E5%A4%8D%E5%88%B6%E6%A8%A1%E5%BC%8F"><span class="toc-number">9.5.4.</span> <span class="toc-text"> 三种复制模式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%B7%E7%9B%98%E6%97%B6%E6%9C%BA"><span class="toc-number">9.5.5.</span> <span class="toc-text"> 刷盘时机</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%A4%E9%98%B6%E6%AE%B5%E6%8F%90%E4%BA%A4"><span class="toc-number">9.6.</span> <span class="toc-text"> 两阶段提交</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E4%B8%A4%E9%98%B6%E6%AE%B5%E6%8F%90%E4%BA%A4"><span class="toc-number">9.6.1.</span> <span class="toc-text"> 为什么需要两阶段提交？</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%A4%E9%98%B6%E6%AE%B5%E6%8F%90%E4%BA%A4%E7%9A%84%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B"><span class="toc-number">9.6.2.</span> <span class="toc-text"> 两阶段提交的执行过程</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95"><span class="toc-number">10.</span> <span class="toc-text"> 索引</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%89%E7%85%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%86%E7%B1%BB"><span class="toc-number">10.1.</span> <span class="toc-text"> 按照数据结构分类</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#btree-%E7%B4%A2%E5%BC%95"><span class="toc-number">10.1.1.</span> <span class="toc-text"> B+Tree 索引</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#btree-%E5%92%8C%E5%85%B6%E4%BB%96%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9A%84%E5%AF%B9%E6%AF%94"><span class="toc-number">10.1.2.</span> <span class="toc-text"> B+Tree 和其他数据结构的对比</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#mysql-%E4%B8%AD%E7%9A%84-btree"><span class="toc-number">10.1.3.</span> <span class="toc-text"> MySQL 中的 B+Tree</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%89%E7%85%A7%E5%AD%97%E6%AE%B5%E4%B8%AA%E6%95%B0%E5%88%86%E7%B1%BB"><span class="toc-number">10.2.</span> <span class="toc-text"> 按照字段个数分类</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%81%94%E5%90%88%E7%B4%A2%E5%BC%95"><span class="toc-number">10.2.1.</span> <span class="toc-text"> 联合索引</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%80%E5%B7%A6%E5%8C%B9%E9%85%8D%E5%8E%9F%E5%88%99"><span class="toc-number">10.2.2.</span> <span class="toc-text"> 最左匹配原则</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95%E4%B8%8B%E6%8E%A8"><span class="toc-number">10.2.3.</span> <span class="toc-text"> 索引下推</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95%E5%A4%B1%E6%95%88"><span class="toc-number">10.3.</span> <span class="toc-text"> 索引失效</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E5%B7%A6%E5%B7%A6%E5%8F%B3%E6%A8%A1%E7%B3%8A%E5%8C%B9%E9%85%8D-xx-xx"><span class="toc-number">10.3.1.</span> <span class="toc-text"> 使用左 &#x2F; 左右模糊匹配 % xx % xx%</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E7%B4%A2%E5%BC%95%E8%BF%9B%E8%A1%8C%E5%87%BD%E6%95%B0%E8%BF%90%E7%AE%97"><span class="toc-number">10.3.2.</span> <span class="toc-text"> 对索引进行函数运算</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E7%B4%A2%E5%BC%95%E8%BF%9B%E8%A1%8C%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BF%90%E7%AE%97"><span class="toc-number">10.3.3.</span> <span class="toc-text"> 对索引进行表达式运算</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%81%94%E5%90%88%E7%B4%A2%E5%BC%95%E6%B2%A1%E6%9C%89%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B7%A6%E5%8C%B9%E9%85%8D%E5%8E%9F%E5%88%99"><span class="toc-number">10.3.4.</span> <span class="toc-text"> 联合索引没有使用最左匹配原则</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E7%B4%A2%E5%BC%95%E9%9A%90%E5%BC%8F%E8%BD%AC%E6%8D%A2"><span class="toc-number">10.3.5.</span> <span class="toc-text"> 对索引隐式转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#where-%E6%9D%A1%E4%BB%B6%E4%BD%BF%E7%94%A8-or"><span class="toc-number">10.3.6.</span> <span class="toc-text"> WHERE 条件使用 OR</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#xxx-%E4%B8%80%E5%AE%9A%E4%BC%9A%E7%B4%A2%E5%BC%95%E5%A4%B1%E6%95%88%E5%90%97"><span class="toc-number">10.4.</span> <span class="toc-text"> % xxx 一定会索引失效吗？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#count%E5%92%8C-count1%E6%80%A7%E8%83%BD%E6%9C%89%E5%8C%BA%E5%88%AB%E5%90%97"><span class="toc-number">11.</span> <span class="toc-text"> COUNT (*) 和 COUNT (1) 性能有区别吗</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#count%E4%B8%BB%E9%94%AE"><span class="toc-number">11.1.</span> <span class="toc-text"> COUNT (主键)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#count-%E5%92%8C-count1"><span class="toc-number">11.2.</span> <span class="toc-text"> COUNT (*) 和 COUNT (1)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#count%E6%99%AE%E9%80%9A%E5%AD%97%E6%AE%B5"><span class="toc-number">11.3.</span> <span class="toc-text"> COUNT (普通字段)</span></a></li></ol></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li class="active"><a href="" rel="bookmark" title="MySQL高级">MySQL高级</a></li></ul></div><div class="overview panel" data-title="站点概览"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="Maple Plus" src="../assets/avatar.png"><p class="name" itemprop="name">Maple Plus</p><div class="description" itemprop="description">为国民幸福而国家富强</div></div><nav class="state"><div class="item posts"><a href="../archives/"><span class="count">234</span><span class="name">文章</span></a></div><div class="item categories"><a href="../categories/"><span class="count">13</span><span class="name">分类</span></a></div><div class="item tags"><a href="../tags/"><span class="count">5</span><span class="name">标签</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/mapleplus" class="item github" title="https:&#x2F;&#x2F;github.com&#x2F;mapleplus"><i class="ic i-github"></i></a></div><div class="menu"><li class="item"><a href="../index.html" rel="section"><i class="ic i-home"></i>首页</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>文章</a><ul class="submenu"><li class="item"><a href="../archives/" rel="section"><i class="ic i-list-alt"></i>归档</a></li><li class="item"><a href="../categories/" rel="section"><i class="ic i-th"></i>分类</a></li><li class="item"><a href="../tags/" rel="section"><i class="ic i-tags"></i>标签</a></li></ul></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="../java-shortlink-shortlink/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="../maozedong-first-002-%E4%B8%AD%E5%9B%BD%E7%9A%84%E7%BA%A2%E8%89%B2%E6%94%BF%E6%9D%83%E4%B8%BA%E4%BB%80%E4%B9%88%E8%83%BD%E5%A4%9F%E5%AD%98%E5%9C%A8%EF%BC%9F/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>随机文章</h2><ul><li class="item"><div class="breadcrumb"><a href="../categories/maozedong/" title="分类于毛泽东选集">毛泽东选集</a><i class="ic i-angle-right"></i><a href="../categories/maozedong/fifth/" title="分类于第五卷">第五卷</a></div><span><a href="../maozedong-fifth-196-%E4%B8%BA%E5%BB%BA%E8%AE%BE%E4%B8%80%E4%B8%AA%E4%BC%9F%E5%A4%A7%E7%9A%84%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%9B%BD%E5%AE%B6%E8%80%8C%E5%A5%8B%E6%96%97/">为建设一个伟大的社会主义国家而奋斗</a></span></li><li class="item"><div class="breadcrumb"><a href="../categories/maozedong/" title="分类于毛泽东选集">毛泽东选集</a><i class="ic i-angle-right"></i><a href="../categories/maozedong/fifth/" title="分类于第五卷">第五卷</a></div><span><a href="../maozedong-fifth-222-%E6%96%87%E6%B1%87%E6%8A%A5%E7%9A%84%E8%B5%84%E4%BA%A7%E9%98%B6%E7%BA%A7%E6%96%B9%E5%90%91%E5%BA%94%E5%BD%93%E6%89%B9%E5%88%A4/">文汇报的资产阶级方向应当批判</a></span></li><li class="item"><div class="breadcrumb"><a href="../categories/maozedong/" title="分类于毛泽东选集">毛泽东选集</a><i class="ic i-angle-right"></i><a href="../categories/maozedong/fourth/" title="分类于第四卷">第四卷</a></div><span><a href="../maozedong-fourth-114-%E5%85%B3%E4%BA%8E%E7%9B%AE%E5%89%8D%E5%85%9A%E7%9A%84%E6%94%BF%E7%AD%96%E4%B8%AD%E7%9A%84%E5%87%A0%E4%B8%AA%E9%87%8D%E8%A6%81%E9%97%AE%E9%A2%98/">关于目前党的政策中的几个重要问题</a></span></li><li class="item"><div class="breadcrumb"><a href="../categories/maozedong/" title="分类于毛泽东选集">毛泽东选集</a><i class="ic i-angle-right"></i><a href="../categories/maozedong/fifth/" title="分类于第五卷">第五卷</a></div><span><a href="../maozedong-fifth-166-%E5%81%9A%E4%B8%80%E4%B8%AA%E5%AE%8C%E5%85%A8%E7%9A%84%E9%9D%A9%E5%91%BD%E6%B4%BE/">做一个完全的革命派</a></span></li><li class="item"><div class="breadcrumb"><a href="../categories/maozedong/" title="分类于毛泽东选集">毛泽东选集</a><i class="ic i-angle-right"></i><a href="../categories/maozedong/fifth/" title="分类于第五卷">第五卷</a></div><span><a href="../maozedong-fifth-172-%E9%95%87%E5%8E%8B%E5%8F%8D%E9%9D%A9%E5%91%BD%E5%BF%85%E9%A1%BB%E6%89%93%E5%BE%97%E7%A8%B3%EF%BC%8C%E6%89%93%E5%BE%97%E5%87%86%EF%BC%8C%E6%89%93%E5%BE%97%E7%8B%A0/">镇压反革命必须打得稳，打得准，打得狠</a></span></li><li class="item"><div class="breadcrumb"><a href="../categories/maozedong/" title="分类于毛泽东选集">毛泽东选集</a><i class="ic i-angle-right"></i><a href="../categories/maozedong/fourth/" title="分类于第四卷">第四卷</a></div><span><a href="../maozedong-fourth-137-%E8%AF%84%E6%88%98%E7%8A%AF%E6%B1%82%E5%92%8C/">评战犯求和</a></span></li><li class="item"><div class="breadcrumb"><a href="../categories/maozedong/" title="分类于毛泽东选集">毛泽东选集</a><i class="ic i-angle-right"></i><a href="../categories/maozedong/third/" title="分类于第三卷">第三卷</a></div><span><a href="../maozedong-third-076-%E4%B8%BA%E4%BA%BA%E6%B0%91%E6%9C%8D%E5%8A%A1/">为人民服务</a></span></li><li class="item"><div class="breadcrumb"><a href="../categories/maozedong/" title="分类于毛泽东选集">毛泽东选集</a><i class="ic i-angle-right"></i><a href="../categories/maozedong/fourth/" title="分类于第四卷">第四卷</a></div><span><a href="../maozedong-fourth-095-%E5%9B%BD%E6%B0%91%E5%85%9A%E8%BF%9B%E6%94%BB%E7%9A%84%E7%9C%9F%E7%9B%B8/">国民党进攻的真相</a></span></li><li class="item"><div class="breadcrumb"><a href="../categories/maozedong/" title="分类于毛泽东选集">毛泽东选集</a><i class="ic i-angle-right"></i><a href="../categories/maozedong/fourth/" title="分类于第四卷">第四卷</a></div><span><a href="../maozedong-fourth-093-%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E5%85%B3%E4%BA%8E%E5%90%8C%E5%9B%BD%E6%B0%91%E5%85%9A%E8%BF%9B%E8%A1%8C%E5%92%8C%E5%B9%B3%E8%B0%88%E5%88%A4%E7%9A%84%E9%80%9A%E7%9F%A5/">中共中央关于同国民党进行和平谈判的通知</a></span></li><li class="item"><div class="breadcrumb"><a href="../categories/maozedong/" title="分类于毛泽东选集">毛泽东选集</a><i class="ic i-angle-right"></i><a href="../categories/maozedong/fifth/" title="分类于第五卷">第五卷</a></div><span><a href="../maozedong-fifth-197-%E5%85%B3%E4%BA%8E%E3%80%8A%E7%BA%A2%E6%A5%BC%E6%A2%A6%E3%80%8B%E7%A0%94%E7%A9%B6%E9%97%AE%E9%A2%98%E7%9A%84%E4%BF%A1/">关于《红楼梦》研究问题的信</a></span></li></ul></div><div class="rpost pjax"><h2>最新评论</h2><ul class="leancloud-recent-comment" id="new-comment"></ul></div></div><div class="status"><div class="copyright">&copy; 2023 -<span itemprop="copyrightYear">2024</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">Maple Plus @ Maple Plus</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="站点总字数">1.4m 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="站点阅读时长">21:46</span></div><div class="powered-by">基于 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL = {
+    ispost: true,
+        path: `java-mysql-advance-2024-11-28-MySQL/`,
+        favicon: {
+        show: `one piece!😎`,
+        hide: `枫的最后一句🍁`
+    },
+    search: {
+        placeholder: "文章搜索",
+        empty: "关于 「 ${query} 」，什么也没搜到",
+        stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章时效性提示</span><br>这是一篇发布于 {{publish}} 天前，最后一次更新在 {{updated}} 天前的文章，部分信息可能已经发生改变，请注意甄别。</p></div>`,
+    quiz: {
+        choice: `单选题`,
+        multiple: `多选题`,
+        true_false: `判断题`,
+        essay: `问答题`,
+        gap_fill: `填空题`,
+        mistake: `错题备注`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script src="https://s4.zstatic.net/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO&#x2F;+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn&#x2F;6Z&#x2F;hRTt8+pR6L4N2" crossorigin="anonymous" fetchpriority="high"></script><script src="../js/siteInit.js?v=0.4.16" type="module" fetchpriority="high" defer="defer"></script></body></html>

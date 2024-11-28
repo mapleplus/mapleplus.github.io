@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.fxink.cn/java-mysql-base-2024-11-26-MySQL/</loc>
+    
+    <lastmod>2024-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/java-shortlink-shortlink/</loc>
+    
+    <lastmod>2024-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/java-maple-coupon-maple-coupon/</loc>
+    
+    <lastmod>2024-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/java-mysql-advance-2024-11-28-MySQL/</loc>
+    
+    <lastmod>2024-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.fxink.cn/java-javase-2024-11-25-JavaSE/</loc>
     
     <lastmod>2024-11-28</lastmod>
@@ -2071,15 +2107,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://blog.fxink.cn/java-mysql-2024-11-26-MySQL/</loc>
-    
-    <lastmod>2024-11-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://blog.fxink.cn/</loc>
@@ -2090,14 +2117,21 @@
 
   
   <url>
-    <loc>https://blog.fxink.cn/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%89%E9%9B%86/</loc>
+    <loc>https://blog.fxink.cn/tags/Java-%E9%A1%B9%E7%9B%AE-%E4%BC%98%E6%83%A0%E5%88%B8/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/tags/sql-MySQL/</loc>
+    <loc>https://blog.fxink.cn/tags/Java-%E9%A1%B9%E7%9B%AE-%E7%9F%AD%E9%93%BE/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%89%E9%9B%86/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2110,14 +2144,14 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/</loc>
+    <loc>https://blog.fxink.cn/tags/sql-MySQL/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>https://blog.fxink.cn/categories/java/</loc>
@@ -2127,14 +2161,28 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/fifth/</loc>
+    <loc>https://blog.fxink.cn/categories/maozedong/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/java/mysql/</loc>
+    <loc>https://blog.fxink.cn/categories/java/maple-coupon/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/java/shortlink/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/maozedong/first/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2148,7 +2196,7 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/first/</loc>
+    <loc>https://blog.fxink.cn/categories/maozedong/fifth/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2170,6 +2218,27 @@
   
   <url>
     <loc>https://blog.fxink.cn/categories/maozedong/second/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/java/mysql/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/java/mysql/advance/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/java/mysql/base/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

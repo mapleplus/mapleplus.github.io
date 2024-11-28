@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fxink.cn/java-mysql-base-2024-11-26-MySQL/</loc>
+    <lastmod>2024-11-28</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.fxink.cn/java-shortlink-shortlink/</loc>
+    <lastmod>2024-11-28</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.fxink.cn/java-maple-coupon-maple-coupon/</loc>
+    <lastmod>2024-11-28</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.fxink.cn/java-mysql-advance-2024-11-28-MySQL/</loc>
+    <lastmod>2024-11-28</lastmod>
+  </url>
+  <url>
     <loc>https://blog.fxink.cn/java-javase-2024-11-25-JavaSE/</loc>
     <lastmod>2024-11-28</lastmod>
   </url>
@@ -918,10 +934,6 @@
   </url>
   <url>
     <loc>https://blog.fxink.cn/maozedong-fifth-159-%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%AB%99%E8%B5%B7%E6%9D%A5%E4%BA%86/</loc>
-    <lastmod>2024-11-27</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.fxink.cn/java-mysql-2024-11-26-MySQL/</loc>
     <lastmod>2024-11-27</lastmod>
   </url>
 </urlset> 
