@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.fxink.cn/about/index.html</loc>
+    
+    <lastmod>2024-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.fxink.cn/java-mysql-base-2024-11-26-MySQL/</loc>
     
     <lastmod>2024-11-28</lastmod>
@@ -2182,7 +2191,7 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/first/</loc>
+    <loc>https://blog.fxink.cn/categories/maozedong/fourth/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2196,14 +2205,14 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/fifth/</loc>
+    <loc>https://blog.fxink.cn/categories/maozedong/first/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/maozedong/fourth/</loc>
+    <loc>https://blog.fxink.cn/categories/maozedong/fifth/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2231,14 +2240,14 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/java/mysql/advance/</loc>
+    <loc>https://blog.fxink.cn/categories/java/mysql/base/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/java/mysql/base/</loc>
+    <loc>https://blog.fxink.cn/categories/java/mysql/advance/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
