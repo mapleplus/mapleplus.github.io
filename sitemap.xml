@@ -2090,13 +2090,6 @@
 
   
   <url>
-    <loc>https://mapleplus.github.io/tags/sql-MySQL/</loc>
-    <lastmod>2024-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://mapleplus.github.io/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%89%E9%9B%86/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -2110,24 +2103,17 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://mapleplus.github.io/tags/sql-MySQL/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://mapleplus.github.io/categories/java/</loc>
-    <lastmod>2024-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://mapleplus.github.io/categories/maozedong/</loc>
-    <lastmod>2024-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mapleplus.github.io/categories/java/mysql/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2141,7 +2127,7 @@
   </url>
   
   <url>
-    <loc>https://mapleplus.github.io/categories/java/javase/</loc>
+    <loc>https://mapleplus.github.io/categories/maozedong/fifth/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2162,7 +2148,14 @@
   </url>
   
   <url>
-    <loc>https://mapleplus.github.io/categories/maozedong/fifth/</loc>
+    <loc>https://mapleplus.github.io/categories/java/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mapleplus.github.io/categories/java/javase/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2170,6 +2163,13 @@
   
   <url>
     <loc>https://mapleplus.github.io/categories/maozedong/second/</loc>
+    <lastmod>2024-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mapleplus.github.io/categories/java/mysql/</loc>
     <lastmod>2024-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
