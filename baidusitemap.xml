@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fxink.cn/java-collection-HashMap/</loc>
+    <lastmod>2024-12-09</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.fxink.cn/mysql-sqlbase-2024-11-26-MySQL/</loc>
+    <lastmod>2024-12-09</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.fxink.cn/mysql-advance-2024-11-28-MySQL/</loc>
+    <lastmod>2024-12-09</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.fxink.cn/java-shortlink-2024-11-28-shortlink/</loc>
+    <lastmod>2024-12-09</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.fxink.cn/java-coupon-2024-11-28-MapleCoupon/</loc>
+    <lastmod>2024-12-09</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.fxink.cn/java-javase-2024-11-25-JavaSE/</loc>
+    <lastmod>2024-12-09</lastmod>
+  </url>
+  <url>
     <loc>https://blog.fxink.cn/golang-gobase-base/</loc>
     <lastmod>2024-12-09</lastmod>
   </url>
   <url>
     <loc>https://blog.fxink.cn/java-interview-2024-12-06-huya/</loc>
     <lastmod>2024-12-06</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.fxink.cn/mysql-advance-2024-11-28-MySQL/</loc>
-    <lastmod>2024-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.fxink.cn/java-shortlink-2024-11-28-shortlink/</loc>
-    <lastmod>2024-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.fxink.cn/java-coupon-2024-11-28-MapleCoupon/</loc>
-    <lastmod>2024-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.fxink.cn/java-javase-2024-11-25-JavaSE/</loc>
-    <lastmod>2024-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.fxink.cn/mysql-sqlbase-2024-11-26-MySQL/</loc>
-    <lastmod>2024-11-29</lastmod>
   </url>
   <url>
     <loc>https://blog.fxink.cn/maozedong-second-026-%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</loc>
