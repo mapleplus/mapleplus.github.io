@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Maple",
-    "subtitle": "枫的秘密基地",
+    "subtitle": "为国民幸福而国家富强",
     "icon": "https://blog.fxink.cn/assets/favicon.ico",
-    "description": "为国民幸福而国家富强\n喜欢捣鼓程序的小卡拉米",
+    "description": "喜欢捣鼓程序的小卡拉米",
     "home_page_url": "https://blog.fxink.cn",
     "items": [
         {

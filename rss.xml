@@ -2,14 +2,13 @@
 <rss version="2.0">
     <channel>
         <title>Maple</title>
-        <subtitle>枫的秘密基地</subtitle>
+        <subtitle>为国民幸福而国家富强</subtitle>
         <icon>https://blog.fxink.cn/assets/favicon.ico</icon>
         <link>https://blog.fxink.cn</link>
         <author>
           <name>Maple Plus</name>
         </author>
-        <description>为国民幸福而国家富强
-喜欢捣鼓程序的小卡拉米</description>
+        <description>喜欢捣鼓程序的小卡拉米</description>
         <language>zh-CN</language>
         <pubDate>Mon, 09 Dec 2024 22:43:01 +0800</pubDate>
         <lastBuildDate>Mon, 09 Dec 2024 22:43:01 +0800</lastBuildDate>
