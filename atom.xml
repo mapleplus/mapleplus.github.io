@@ -8,7 +8,336 @@
     <author>
       <name>Maple Plus</name>
     </author>
-    <updated>2024-12-09T14:43:01.887Z</updated>
+    <updated>2024-12-21T08:38:24.778Z</updated>
+    <entry>
+        <id>https://blog.fxink.cn/computer-software-software-engineering/</id>
+        <title>软件工程导论</title>
+        <link rel="alternate" href="https://blog.fxink.cn/computer-software-software-engineering/"/>
+        <content type="html">&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;软件定义&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;软件是计算机系统中由一系列按照特定顺序组织的指令、数据和相关文档组成的集合&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软件危机的定义 表现 原因&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;软件危机的定义：软件危机是指在计算机软件的开发和维护过程中所遇到的一系列严重问题&lt;/li&gt;
+&lt;li&gt;表现
+&lt;ol&gt;
+&lt;li&gt;对软件开发成本和进度的估计常常很不准确&lt;/li&gt;
+&lt;li&gt;经常出现用户对 “已完成的” 软件系统功能不满意的现象&lt;/li&gt;
+&lt;li&gt;软件产品的质量往往达不到要求&lt;/li&gt;
+&lt;li&gt;软件通常不可维护&lt;/li&gt;
+&lt;li&gt;软件通常没有适当的文档资料&lt;/li&gt;
+&lt;li&gt;软件成本在计算机系统总成本中所占的比例逐年上升&lt;/li&gt;
+&lt;li&gt;软件开发生产率提高的速度，远远跟不上计算机应用迅速普及深入的趋势&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;原因
+&lt;ol&gt;
+&lt;li&gt;软件缺乏 “可见性”&lt;/li&gt;
+&lt;li&gt;软件缺乏 “可插拔性”&lt;/li&gt;
+&lt;li&gt;保证每个人完成的工作构成一个高质量的大型软件系统，是一个极端复杂困难的问题&lt;/li&gt;
+&lt;li&gt;忽视需求分析只重视编码与运行&lt;/li&gt;
+&lt;li&gt;忽视文档只重视程序&lt;/li&gt;
+&lt;li&gt;轻视维护是一个最大的错误&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软件工程定义、工程方法学三要素&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;软件工程定义：把系统的、规范的、可度量的途径应用于软件开发、运行和维护过程；研究系统的、规范的、可度量的途径&lt;/li&gt;
+&lt;li&gt;软件工程方法学包含 3 个要素：方法、工具和过程&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软件工程七原理&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;用分阶段的生命周期计划严格管理&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;坚持进行阶段评审&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;实行严格的产品控制&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;采用现代程序设计技术&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;结果应能清楚地审查&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;开发小组的人员应该少而精&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;承认不断改进软件工程实践的必要性&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软件生命周期三大阶段八小阶段&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;三大阶段：问题定义阶段、可行性研究阶段和需求分析阶段&lt;/li&gt;
+&lt;li&gt;八小阶段：问题定义 可行性研究 需求分析 总体设计 详细设计 编码和单元测试 综合测试 软件维护&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;常见的软件开发模型有哪些？各有什么特点、优缺点？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;瀑布模型
+&lt;ol&gt;
+&lt;li&gt;阶段间具有顺序性和依赖性&lt;/li&gt;
+&lt;li&gt;推迟实现&lt;/li&gt;
+&lt;li&gt;质量保证&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;快速原型模型
+&lt;ol&gt;
+&lt;li&gt;快速建立一个能反映用户主要需求的原型系统，让用户在计算机上试用它，通过实践来了解目标系统的概貌&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;增量模型
+&lt;ol&gt;
+&lt;li&gt;能在较短时间内向用户提交可完成部分工作的产品&lt;/li&gt;
+&lt;li&gt;逐步增加产品功能可以使用户有较充裕的时间学习和适应新产品&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;螺旋模型
+&lt;ol&gt;
+&lt;li&gt;螺旋模型以风险管理为核心，兼顾用户反馈和迭代开发，是一种灵活且具有较高可靠性的开发方法，适合高复杂度、高风险的项目开发&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241221094808744.png&#34; alt=&#34;软件开发模型&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可行性研究的基本任务是什么？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用最小的代价在尽可能短的时间内确定问题是否能够解决&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可行性研究有哪三个角度？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;技术 经济 操作&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可行性研究结束后的文档是什么？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;可行性研究报告&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;系统流程图、数据流图、数据字典各是描绘系统的什么模型？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;物理模型 数据流图和数据字典共同定义了系统的逻辑模型&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软件开发成本估计有哪三种方法？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自顶向下估算法&lt;/li&gt;
+&lt;li&gt;自底向上估算法&lt;/li&gt;
+&lt;li&gt;类比估算法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;经济效益分析有哪几个经济指标？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;货币的时间价值&lt;/li&gt;
+&lt;li&gt;投资回收期&lt;/li&gt;
+&lt;li&gt;纯收入&lt;/li&gt;
+&lt;li&gt;投资回收率&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;需求分析的基本任务是什么？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;准确地回答 “系统必须做什么”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;需求分析结束提交的文档叫什么名字？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;软件需求规格说明书&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;需求分析的任务有哪些？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;确定对系统的综合要求&lt;/li&gt;
+&lt;li&gt;分析系统的数据要求&lt;/li&gt;
+&lt;li&gt;导出系统的逻辑模型&lt;/li&gt;
+&lt;li&gt;修正系统开发计划&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;需求分析阶段，系统的综合要求需求有哪些&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;功能需求&lt;/li&gt;
+&lt;li&gt;性能需求&lt;/li&gt;
+&lt;li&gt;可靠性、可用性、安全性、保密性等需求&lt;/li&gt;
+&lt;li&gt;出错处理需求&lt;/li&gt;
+&lt;li&gt;接口需求&lt;/li&gt;
+&lt;li&gt;约束、逆向需求&lt;/li&gt;
+&lt;li&gt;将来可能提出的要求&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软件设计从技术的角度有哪三种内容？从管理的角度分为哪两种阶段？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;从技术的角度：数据设计 系统结构设计 过程设计&lt;/li&gt;
+&lt;li&gt;从管理的角度：总体设计 详细设计&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;总体设计有哪两个任务？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;划分出组成系统的物理元素&lt;/li&gt;
+&lt;li&gt;设计软件的结构&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;总体设计阶段提交的文档叫什么？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;总体设计说明书&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;设计原理有哪些？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;模块化&lt;/li&gt;
+&lt;li&gt;抽象&lt;/li&gt;
+&lt;li&gt;逐步求精&lt;/li&gt;
+&lt;li&gt;信息隐藏和局部化&lt;/li&gt;
+&lt;li&gt;模块独立&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Miller 法则：一个人在任何时候都只能把注意力集中在多少&lt;br /&gt;
+个知识块上？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;（7±2）个知识块&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模块的独立程度的两个定性标准度量是什么？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;内聚和耦合&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;三种基本的程序控制结构是什么&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;顺序结构 选择结构 循环结构&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;程序编码风格是什么？包括哪些方面？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;编写程序时所表现出来的特点、习惯、逻辑思路等&lt;/li&gt;
+&lt;li&gt;符号名的命名 程序的注释  数据说明 语句构造 输入输出 效率&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;测试有哪三个阶段，有哪两种方法？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;单元测试 集成测试 系统测试&lt;/li&gt;
+&lt;li&gt;黑盒测试：又叫功能测试 白盒测试：又叫结构测试&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软件生存周期中时间最长的一个阶段是？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;维护阶段&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软件维护的内容有哪四种？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;改正性维护&lt;/li&gt;
+&lt;li&gt;适应性维护&lt;/li&gt;
+&lt;li&gt;完善性维护&lt;/li&gt;
+&lt;li&gt;预防性维护&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用例图、类图、时序图的作用是什么？有哪些主要的元素？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;作用：建立功能模型 建立静态模型 强调消息的时间次序&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用例图&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;参与者&lt;/strong&gt;：外部交互实体，如用户或其他系统&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用例&lt;/strong&gt;：系统的具体功能&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;系统边界&lt;/strong&gt;：用矩形框划定系统范围&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;关系&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;关联关系&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;包含关系&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;扩展关系&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;泛化关系&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;备注&lt;/strong&gt;：补充说明&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;类图&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;类&lt;/strong&gt;：类名、属性、方法&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;接口&lt;/strong&gt;：方法集合&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关系&lt;/strong&gt;：关联、依赖、泛化、实现、聚合、组合&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多重性&lt;/strong&gt;：表示关联的实例数量&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可见性&lt;/strong&gt;：定义属性和方法的访问权限&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;时序图&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;角色和对象&lt;/strong&gt;：表示交互的实体&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生命线&lt;/strong&gt;：表示对象的生命周期&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;控制焦点&lt;/strong&gt;：表示对象的活动状态&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;消息&lt;/strong&gt;：表示对象之间的交互行为（包括同步、异步、返回消息等）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;条件与循环&lt;/strong&gt;：表示控制逻辑&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;备注&lt;/strong&gt;：提供额外的信息说明&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="计算机科学" scheme="https://blog.fxink.cn/categories/computer/" />
+        <category term="软件工程" scheme="https://blog.fxink.cn/categories/computer/software/" />
+        <category term="软件工程" scheme="https://blog.fxink.cn/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/" />
+        <updated>2024-12-21T08:38:24.778Z</updated>
+    </entry>
     <entry>
         <id>https://blog.fxink.cn/java-collection-HashMap/</id>
         <title>HashMap</title>
@@ -33,9 +362,9 @@
         <updated>2024-12-09T14:43:01.887Z</updated>
     </entry>
     <entry>
-        <id>https://blog.fxink.cn/golang-gobase-base/</id>
+        <id>https://blog.fxink.cn/golang-gobase-golangbase/</id>
         <title>golang模块管理</title>
-        <link rel="alternate" href="https://blog.fxink.cn/golang-gobase-base/"/>
+        <link rel="alternate" href="https://blog.fxink.cn/golang-gobase-golangbase/"/>
         <content type="html">&lt;h2 id=&#34;模块管理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#模块管理&#34;&gt;#&lt;/a&gt; 模块管理&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;GOPATH 模式不方便管理多个项目模块，所以 go1.11 引入了 go mod 模块管理工具，go mod 可以方便的下载依赖包，并且可以指定依赖包的版本&lt;/p&gt;
@@ -91,7 +420,7 @@
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight go&#34;&gt;&lt;figcaption data-lang=&#34;go&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;PS E&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;\GO\&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;\moudle_test&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt; run &lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;\main&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;ERROR&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;globalobj&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;144&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Config File E&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;\GO\&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;\moudle_test\conf\zinx&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;json is not exist&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; You can set configFile by setting the environment variable ZINX_CONFIG_FILE_PATH&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; like export ZINX_CONFIG_FILE_PATH &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; xxx&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;xxx&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;zinx&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;conf&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;              ██&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;              ▀▀&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; ████████   ████     ██▄████▄  ▀██  ██▀&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     ▄█▀      ██     ██▀   ██    ████&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   ▄█▀        ██     ██    ██    ▄██▄&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; ▄██▄▄▄▄▄  ▄▄▄██▄▄▄  ██    ██   ▄█▀▀█▄&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; ▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀  ▀▀    ▀▀  ▀▀▀  ▀▀▀&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;┌──────────────────────────────────────────────────────┐        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;│ &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;Github&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;github&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;com&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;aceld                    │        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;│ &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;tutorial&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;www&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;yuque&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;com&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;aceld&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;npyr8s&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;bgftov │        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;│ &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;document&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;www&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;yuque&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;com&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;aceld&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;tsgooa        │        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;└──────────────────────────────────────────────────────┘        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;Zinx&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; Version&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; V1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; MaxConn&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;12000&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; MaxPacketSize&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4096&lt;/span&gt;       &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Zinx Global Config &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Host&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0.0&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.0&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;TCPPort&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;8999&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;WsPort&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;9000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Name&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; ZinxServerApp&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpPort&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;9001&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpACKNoDelay&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpStreamMode&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpNoDelay&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpInterval&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpResend&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpNc&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpSendWindow&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;32&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpRecvWindow&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;32&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpFecDataShards&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;KcpFecParityShards&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Version&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; V1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;MaxPacketSize&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4096&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;MaxConn&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;12000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;WorkerPoolSize&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;MaxWorkerTaskLen&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1024&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;WorkerMode&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;MaxMsgChanLen&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1024&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;IOReadBuffSize&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1024&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mode&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; tcp&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;RouterSlicesMode&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;RequestPoolMode&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;LogDir&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; E&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;\GO\&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;\moudle_test&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;log&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;LogFile&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;LogSaveDays&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;LogFileSize&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;LogCons&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;LogIsolationLevel&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;HeartbeatMax&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;CertFile&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;PrivateKeyFile&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;INFO&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;244&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Add Router msgID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;INFO&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;server&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;420&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;START&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; Server name&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; ZinxServerApp&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;listener at IP&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0.0&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.0&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Port &lt;span class=&#34;token number&#34;&gt;8999&lt;/span&gt; is starting      &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;58&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;DEBUG&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;286&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Worker ID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; is started&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;59&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;DEBUG&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;286&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Worker ID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt; is started&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;60&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;DEBUG&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;286&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Worker ID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; is started&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;61&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;DEBUG&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;286&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Worker ID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt; is started&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;62&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;DEBUG&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;286&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Worker ID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; is started&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;63&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;DEBUG&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;286&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Worker ID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;8&lt;/span&gt; is started&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;64&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;DEBUG&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;286&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Worker ID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt; is started&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;65&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;DEBUG&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;286&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Worker ID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;9&lt;/span&gt; is started&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;66&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;DEBUG&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;286&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Worker ID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt; is started&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;67&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2024&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;09&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;57&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;DEBUG&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;msghandler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;286&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Worker ID &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt; is started&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="golang" scheme="https://blog.fxink.cn/categories/golang/" />
-        <category term="GO基础" scheme="https://blog.fxink.cn/categories/golang/gobase/" />
+        <category term="GO基础" scheme="https://blog.fxink.cn/categories/golang/GO%E5%9F%BA%E7%A1%80/" />
         <category term="golang" scheme="https://blog.fxink.cn/tags/golang/" />
         <updated>2024-12-08T15:46:41.244Z</updated>
     </entry>

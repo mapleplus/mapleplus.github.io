@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.fxink.cn/computer-software-software-engineering/</loc>
+    
+    <lastmod>2024-12-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.fxink.cn/about/index.html</loc>
     
     <lastmod>2024-12-20</lastmod>
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/golang-gobase-base/</loc>
+    <loc>https://blog.fxink.cn/golang-gobase-golangbase/</loc>
     
     <lastmod>2024-12-09</lastmod>
     
@@ -85,57 +94,64 @@
 
   <url>
     <loc>https://blog.fxink.cn/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://blog.fxink.cn/tags/Java-Java%E9%9B%86%E5%90%88/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.fxink.cn/tags/Java-MapleCoupon/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.fxink.cn/tags/Interview/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.fxink.cn/tags/Java-shortlink/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.fxink.cn/tags/golang/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <loc>https://blog.fxink.cn/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</loc>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.fxink.cn/tags/sql-MySQL/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/tags/golang/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/tags/Java-shortlink/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/tags/Java-MapleCoupon/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/tags/Java-Java%E9%9B%86%E5%90%88/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/tags/Interview/</loc>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.fxink.cn/tags/Java/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -143,78 +159,92 @@
 
   
   <url>
-    <loc>https://blog.fxink.cn/categories/java/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.fxink.cn/categories/java/shortlink/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.fxink.cn/categories/java/collection/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.fxink.cn/categories/golang/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <loc>https://blog.fxink.cn/categories/computer/</loc>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.fxink.cn/categories/mysql/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/java/coupon/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <loc>https://blog.fxink.cn/categories/golang/</loc>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/java/javase/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <loc>https://blog.fxink.cn/categories/computer/software/</loc>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/java/interview/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.fxink.cn/categories/golang/gobase/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <loc>https://blog.fxink.cn/categories/java/</loc>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.fxink.cn/categories/mysql/advance/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.fxink.cn/categories/mysql/sqlbase/</loc>
-    <lastmod>2024-12-20</lastmod>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/golang/GO%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/java/shortlink/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/java/coupon/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/java/collection/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/java/interview/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/java/javase/</loc>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fxink.cn/computer-software-software-engineering/</loc>
+    <lastmod>2024-12-21</lastmod>
+  </url>
+  <url>
     <loc>https://blog.fxink.cn/java-coupon-2024-11-28-MapleCoupon/</loc>
     <lastmod>2024-12-14</lastmod>
   </url>
@@ -25,7 +29,7 @@
     <lastmod>2024-12-09</lastmod>
   </url>
   <url>
-    <loc>https://blog.fxink.cn/golang-gobase-base/</loc>
+    <loc>https://blog.fxink.cn/golang-gobase-golangbase/</loc>
     <lastmod>2024-12-09</lastmod>
   </url>
   <url>
