@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.fxink.cn/computer-software-software-engineering/</loc>
+    <loc>https://blog.fxink.cn/about/index.html</loc>
     
     <lastmod>2024-12-21</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/about/index.html</loc>
+    <loc>https://blog.fxink.cn/computer-software-software-engineering/</loc>
     
-    <lastmod>2024-12-20</lastmod>
+    <lastmod>2024-12-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -108,14 +108,14 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/tags/sql-MySQL/</loc>
+    <loc>https://blog.fxink.cn/tags/Java-Java%E9%9B%86%E5%90%88/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/tags/golang/</loc>
+    <loc>https://blog.fxink.cn/tags/Interview/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -136,14 +136,14 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/tags/Java-Java%E9%9B%86%E5%90%88/</loc>
+    <loc>https://blog.fxink.cn/tags/golang/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/tags/Interview/</loc>
+    <loc>https://blog.fxink.cn/tags/sql-MySQL/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -166,14 +166,7 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/mysql/</loc>
-    <lastmod>2024-12-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.fxink.cn/categories/golang/</loc>
+    <loc>https://blog.fxink.cn/categories/java/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -187,28 +180,28 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/java/</loc>
+    <loc>https://blog.fxink.cn/categories/golang/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/mysql/advance/</loc>
+    <loc>https://blog.fxink.cn/categories/java/collection/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/mysql/sqlbase/</loc>
+    <loc>https://blog.fxink.cn/categories/mysql/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/golang/GO%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://blog.fxink.cn/categories/java/interview/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -229,14 +222,21 @@
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/java/collection/</loc>
+    <loc>https://blog.fxink.cn/categories/golang/GO%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.fxink.cn/categories/java/interview/</loc>
+    <loc>https://blog.fxink.cn/categories/mysql/advance/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.fxink.cn/categories/mysql/sqlbase/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
