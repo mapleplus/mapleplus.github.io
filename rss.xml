@@ -552,7 +552,20 @@
 ● 修改短链接时，用户请求直接响应，发送消息到消息队列，如果拿不到读锁就投入延迟队列，等待重新消费&lt;/li&gt;
 &lt;li&gt;最终选型 2 方案，因为 3 方案既然已经有了消息队列，阻塞等待的过程和使用延迟队列的效果一样，性能差别不大，都是会等待的，这时候延迟队列就有点多余了，当然也是可以使用的。在这时候就不用 tryLock () 了，而是使用 lock，使其阻塞等待，具体原因在 2 方案&lt;/li&gt;
 &lt;/ol&gt;
- ]]></description>
+&lt;h2 id=&#34;在linux服务器上部署rocketmq&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在linux服务器上部署rocketmq&#34;&gt;#&lt;/a&gt; 在 Linux 服务器上部署 RocketMQ&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;命令部署前提配置请看&lt;a href=&#34;https://www.bilibili.com/video/BV1jL41187ny?vd_source=0237c188b05cdd4b34e80198f868122f&amp;amp;p=2&amp;amp;spm_id_from=333.788.videopod.episodes&#34;&gt; B 站教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;启动 NameServer&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;nohup&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;bash&lt;/span&gt; mqnamesrv &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;/namesrv.log &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;启动 Broker&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;nohup&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;bash&lt;/span&gt; mqbroker &lt;span class=&#34;token parameter variable&#34;&gt;-c&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;/conf/broker.conf &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;/broker.log &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;启动 dashbord&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;nohup&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;java&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-jar&lt;/span&gt; rocketmq-dashboard-1.0.0.jar &lt;span class=&#34;token parameter variable&#34;&gt;--server.port&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8080&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;--rocketmq.config.namesrvAddr&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;127.0&lt;/span&gt;.0.1:9876 &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; dashboard.log &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://blog.fxink.cn/mysql-advance-2024-11-28-MySQL/</guid>

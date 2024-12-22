@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.fxink.cn/java-shortlink-2024-11-28-shortlink/</loc>
+    <lastmod>2024-12-22</lastmod>
+  </url>
+  <url>
     <loc>https://blog.fxink.cn/computer-software-software-engineering/</loc>
     <lastmod>2024-12-21</lastmod>
   </url>
@@ -18,10 +22,6 @@
   </url>
   <url>
     <loc>https://blog.fxink.cn/mysql-advance-2024-11-28-MySQL/</loc>
-    <lastmod>2024-12-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.fxink.cn/java-shortlink-2024-11-28-shortlink/</loc>
     <lastmod>2024-12-09</lastmod>
   </url>
   <url>
