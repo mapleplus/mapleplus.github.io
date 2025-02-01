@@ -1,0 +1,356 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"/><meta name="theme-color" content="#222"/><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/><meta name="renderer" content="webkit"/><link rel="icon" type="image/ico" sizes="32x32" href="../assets/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png"/><link rel="alternate" href="../rss.xml" title="枫" type="application/rss+xml"><link rel="alternate" href="../atom.xml" title="枫" type="application/atom+xml"><link rel="alternate" type="application/json" title="枫" href="https://blog.fxink.cn/feed.json"/><link rel="preconnect" href="https://s4.zstatic.net"/><link rel="preconnect" href="https://at.alicdn.com"/><link rel="preconnect" href="https://lf9-cdn-tos.bytecdntp.com"/><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"/><link rel="dns-prefetch" href="https://unpkg.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&display=swap&subset=latin,latin-ext" media="none" onload="this.media&#x3D;&#39;all&#39;"><link rel="stylesheet" href="../css/app.css?v=0.4.20"><link rel="modulepreload" href="../js/chunk-CSYCUVEX.js"></link><link rel="modulepreload" href="../js/chunk-F63MEY25.js"></link><link rel="modulepreload" href="../js/chunk-H26CG3VU.js"></link><link rel="modulepreload" href="../js/chunk-T3M7ZKLT.js"></link><link rel="modulepreload" href="../js/copy-tex-INFKKOQI.js"></link><link rel="modulepreload" href="../js/index.esm-TVUGGM2A.js"></link><link rel="modulepreload" href="../js/post-5HW322GF.js"></link><link rel="modulepreload" href="../js/quicklink-PVYK7DUX.js"></link><link rel="modulepreload" href="../js/search-ZZFUSRDM.js"></link><link rel="modulepreload" href="../js/siteInit.js"></link><link rel="preload" href="https://image.fxink.cn/maple/blog11.png" as="image" fetchpriority="high"><link rel="preload" href="https://image.fxink.cn/maple/blog10.png" as="image" fetchpriority="high"><link rel="preload" href="https://image.fxink.cn/maple/blog1.jpg" as="image" fetchpriority="high"><link rel="preload" href="https://image.fxink.cn/maple/blog24.png" as="image" fetchpriority="high"><link rel="preload" href="https://image.fxink.cn/maple/blog16.png" as="image" fetchpriority="high"><link rel="preload" href="https://image.fxink.cn/maple/blog21.png" as="image" fetchpriority="high"><meta name="keywords" content="软件工程"/><meta name="description" content="谁是我们的敌人？谁是我们的朋友？"/><link rel="canonical" href="https://blog.fxink.cn/computer-software-software-engineering/"><title>软件工程导论</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">软件工程导论</h1><div class="meta"><span class="item" title="创建时间：2025-02-01 23:13:50"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">发表于</span><time itemprop="dateCreated datePublished" datetime="2025-02-01T23:13:50+08:00">2025-02-01</time></span><span class="item" title="本文字数"><span class="icon"><i class="ic i-pen"></i></span><span class="text">本文字数</span><span>3.3k</span><span class="text">字</span></span><span class="item" title="阅读时长"><span class="icon"><i class="ic i-clock"></i></span><span class="text">阅读时长</span><span>3 分钟</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切换导航栏"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Maple Plus</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/blog11.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/blog10.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/blog1.jpg&quot;);"></li><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/blog24.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/blog16.png&quot;);"></li><li class="item" style="background-image: url(&quot;https://image.fxink.cn/maple/blog21.png&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemListElement itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="../index.html">首页</a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="../categories/computer/" itemprop="item" rel="index" title="分类于计算机科学"><span itemprop="name">计算机科学<meta itemprop="position" content="0"/></span></a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="../categories/computer/software/" itemprop="item" rel="index" title="分类于软件工程"><span itemprop="name">软件工程<meta itemprop="position" content="1"/></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-CN"><link itemprop="mainEntityOfPage" href="https://blog.fxink.cn/computer-software-software-engineering/"/><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="../assets/avatar.png"/><meta itemprop="name" content="Maple Plus"/><meta itemprop="description" content="为国民幸福而国家富强, 谁是我们的敌人？谁是我们的朋友？"/></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="枫"/></span><div class="body md" itemprop="articleBody"><ol>
+<li>
+<p>软件定义</p>
+<ol>
+<li>软件是计算机系统中由一系列按照特定顺序组织的指令、数据和相关文档组成的集合</li>
+</ol>
+</li>
+<li>
+<p>软件危机的定义 表现 原因</p>
+<ol>
+<li>软件危机的定义：软件危机是指在计算机软件的开发和维护过程中所遇到的一系列严重问题</li>
+<li>表现
+<ol>
+<li>对软件开发成本和进度的估计常常很不准确</li>
+<li>经常出现用户对 “已完成的” 软件系统功能不满意的现象</li>
+<li>软件产品的质量往往达不到要求</li>
+<li>软件通常不可维护</li>
+<li>软件通常没有适当的文档资料</li>
+<li>软件成本在计算机系统总成本中所占的比例逐年上升</li>
+<li>软件开发生产率提高的速度，远远跟不上计算机应用迅速普及深入的趋势</li>
+</ol>
+</li>
+<li>原因
+<ol>
+<li>软件缺乏 “可见性”</li>
+<li>软件缺乏 “可插拔性”</li>
+<li>保证每个人完成的工作构成一个高质量的大型软件系统，是一个极端复杂困难的问题</li>
+<li>忽视需求分析只重视编码与运行</li>
+<li>忽视文档只重视程序</li>
+<li>轻视维护是一个最大的错误</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>软件工程定义、工程方法学三要素</p>
+<ol>
+<li>软件工程定义：把系统的、规范的、可度量的途径应用于软件开发、运行和维护过程；研究系统的、规范的、可度量的途径</li>
+<li>软件工程方法学包含 3 个要素：方法、工具和过程</li>
+</ol>
+</li>
+<li>
+<p>软件工程七原理</p>
+<ol>
+<li>
+<p>用分阶段的生命周期计划严格管理</p>
+</li>
+<li>
+<p>坚持进行阶段评审</p>
+</li>
+<li>
+<p>实行严格的产品控制</p>
+</li>
+<li>
+<p>采用现代程序设计技术</p>
+</li>
+<li>
+<p>结果应能清楚地审查</p>
+</li>
+<li>
+<p>开发小组的人员应该少而精</p>
+</li>
+<li>
+<p>承认不断改进软件工程实践的必要性</p>
+</li>
+</ol>
+</li>
+<li>
+<p>软件生命周期三大阶段八小阶段</p>
+<ol>
+<li>三大阶段：问题定义阶段、可行性研究阶段和需求分析阶段</li>
+<li>八小阶段：问题定义 可行性研究 需求分析 总体设计 详细设计 编码和单元测试 综合测试 软件维护</li>
+</ol>
+</li>
+<li>
+<p>常见的软件开发模型有哪些？各有什么特点、优缺点？</p>
+<ol>
+<li>瀑布模型
+<ol>
+<li>阶段间具有顺序性和依赖性</li>
+<li>推迟实现</li>
+<li>质量保证</li>
+</ol>
+</li>
+<li>快速原型模型
+<ol>
+<li>快速建立一个能反映用户主要需求的原型系统，让用户在计算机上试用它，通过实践来了解目标系统的概貌</li>
+</ol>
+</li>
+<li>增量模型
+<ol>
+<li>能在较短时间内向用户提交可完成部分工作的产品</li>
+<li>逐步增加产品功能可以使用户有较充裕的时间学习和适应新产品</li>
+</ol>
+</li>
+<li>螺旋模型
+<ol>
+<li>螺旋模型以风险管理为核心，兼顾用户反馈和迭代开发，是一种灵活且具有较高可靠性的开发方法，适合高复杂度、高风险的项目开发</li>
+</ol>
+</li>
+<li><img loading="lazy" data-src="image-20241221094808744.png" alt="软件开发模型" /></li>
+</ol>
+</li>
+<li>
+<p>可行性研究的基本任务是什么？</p>
+<ol>
+<li>用最小的代价在尽可能短的时间内确定问题是否能够解决</li>
+</ol>
+</li>
+<li>
+<p>可行性研究有哪三个角度？</p>
+<ol>
+<li>技术 经济 操作</li>
+</ol>
+</li>
+<li>
+<p>可行性研究结束后的文档是什么？</p>
+<ol>
+<li>可行性研究报告</li>
+</ol>
+</li>
+<li>
+<p>系统流程图、数据流图、数据字典各是描绘系统的什么模型？</p>
+<ol>
+<li>物理模型 数据流图和数据字典共同定义了系统的逻辑模型</li>
+</ol>
+</li>
+<li>
+<p>软件开发成本估计有哪三种方法？</p>
+<ol>
+<li>自顶向下估算法</li>
+<li>自底向上估算法</li>
+<li>类比估算法</li>
+</ol>
+</li>
+<li>
+<p>经济效益分析有哪几个经济指标？</p>
+<ol>
+<li>货币的时间价值</li>
+<li>投资回收期</li>
+<li>纯收入</li>
+<li>投资回收率</li>
+</ol>
+</li>
+<li>
+<p>需求分析的基本任务是什么？</p>
+<ol>
+<li>准确地回答 “系统必须做什么”</li>
+</ol>
+</li>
+<li>
+<p>需求分析结束提交的文档叫什么名字？</p>
+<ol>
+<li>软件需求规格说明书</li>
+</ol>
+</li>
+<li>
+<p>需求分析的任务有哪些？</p>
+<ol>
+<li>确定对系统的综合要求</li>
+<li>分析系统的数据要求</li>
+<li>导出系统的逻辑模型</li>
+<li>修正系统开发计划</li>
+</ol>
+</li>
+<li>
+<p>需求分析阶段，系统的综合要求需求有哪些</p>
+<ol>
+<li>功能需求</li>
+<li>性能需求</li>
+<li>可靠性、可用性、安全性、保密性等需求</li>
+<li>出错处理需求</li>
+<li>接口需求</li>
+<li>约束、逆向需求</li>
+<li>将来可能提出的要求</li>
+</ol>
+</li>
+<li>
+<p>软件设计从技术的角度有哪三种内容？从管理的角度分为哪两种阶段？</p>
+<ol>
+<li>从技术的角度：数据设计 系统结构设计 过程设计</li>
+<li>从管理的角度：总体设计 详细设计</li>
+</ol>
+</li>
+<li>
+<p>总体设计有哪两个任务？</p>
+<ol>
+<li>划分出组成系统的物理元素</li>
+<li>设计软件的结构</li>
+</ol>
+</li>
+<li>
+<p>总体设计阶段提交的文档叫什么？</p>
+<ol>
+<li>总体设计说明书</li>
+</ol>
+</li>
+<li>
+<p>设计原理有哪些？</p>
+<ol>
+<li>模块化</li>
+<li>抽象</li>
+<li>逐步求精</li>
+<li>信息隐藏和局部化</li>
+<li>模块独立</li>
+</ol>
+</li>
+<li>
+<p>Miller 法则：一个人在任何时候都只能把注意力集中在多少<br />
+个知识块上？</p>
+<ol>
+<li>（7±2）个知识块</li>
+</ol>
+</li>
+<li>
+<p>模块的独立程度的两个定性标准度量是什么？</p>
+<ol>
+<li>内聚和耦合</li>
+</ol>
+</li>
+<li>
+<p>三种基本的程序控制结构是什么</p>
+<ol>
+<li>顺序结构 选择结构 循环结构</li>
+</ol>
+</li>
+<li>
+<p>程序编码风格是什么？包括哪些方面？</p>
+<ol>
+<li>编写程序时所表现出来的特点、习惯、逻辑思路等</li>
+<li>符号名的命名 程序的注释  数据说明 语句构造 输入输出 效率</li>
+</ol>
+</li>
+<li>
+<p>测试有哪三个阶段，有哪两种方法？</p>
+<ol>
+<li>单元测试 集成测试 系统测试</li>
+<li>黑盒测试：又叫功能测试 白盒测试：又叫结构测试</li>
+</ol>
+</li>
+<li>
+<p>软件生存周期中时间最长的一个阶段是？</p>
+<ol>
+<li>维护阶段</li>
+</ol>
+</li>
+<li>
+<p>软件维护的内容有哪四种？</p>
+<ol>
+<li>改正性维护</li>
+<li>适应性维护</li>
+<li>完善性维护</li>
+<li>预防性维护</li>
+</ol>
+</li>
+<li>
+<p>用例图、类图、时序图的作用是什么？有哪些主要的元素？</p>
+<ol>
+<li>
+<p>作用：建立功能模型 建立静态模型 强调消息的时间次序</p>
+</li>
+<li>
+<p>用例图</p>
+<ol>
+<li>
+<p><strong>参与者</strong>：外部交互实体，如用户或其他系统</p>
+</li>
+<li>
+<p><strong>用例</strong>：系统的具体功能</p>
+</li>
+<li>
+<p><strong>系统边界</strong>：用矩形框划定系统范围</p>
+</li>
+<li>
+<p><strong>关系</strong>：</p>
+<ul>
+<li>
+<p>关联关系</p>
+</li>
+<li>
+<p>包含关系</p>
+</li>
+<li>
+<p>扩展关系</p>
+</li>
+<li>
+<p>泛化关系</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>备注</strong>：补充说明</p>
+</li>
+</ol>
+</li>
+<li>
+<p>类图</p>
+<ol>
+<li><strong>类</strong>：类名、属性、方法</li>
+<li><strong>接口</strong>：方法集合</li>
+<li><strong>关系</strong>：关联、依赖、泛化、实现、聚合、组合</li>
+<li><strong>多重性</strong>：表示关联的实例数量</li>
+<li><strong>可见性</strong>：定义属性和方法的访问权限</li>
+</ol>
+</li>
+<li>
+<p>时序图</p>
+<ol>
+<li><strong>角色和对象</strong>：表示交互的实体</li>
+<li><strong>生命线</strong>：表示对象的生命周期</li>
+<li><strong>控制焦点</strong>：表示对象的活动状态</li>
+<li><strong>消息</strong>：表示对象之间的交互行为（包括同步、异步、返回消息等）</li>
+<li><strong>条件与循环</strong>：表示控制逻辑</li>
+<li><strong>备注</strong>：提供额外的信息说明</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<div class="tags"><a href="../tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/" rel="tag"><i class="ic i-tag"></i>软件工程</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-eye"></i></span><span class="text">总访问量：</span><span class="waline-pageview-count" id="twikoo_visitors" data-path="/computer-software-software-engineering/">加载中...</span></span><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新于 </span><time title="修改时间：2025-02-01 23:58:19" itemprop="dateModified" datetime="2025-02-01T23:58:19+08:00">2025-02-01</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>赞赏</button><p>请我喝[茶]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" data-src="../assets/wechatpay.png" alt="Maple Plus 微信支付"/><p>微信支付</p></div><div><img loading="lazy" data-src="../assets/alipay.png" alt="Maple Plus 支付宝"/><p>支付宝</p></div></div></div><div id="copyright"><ul><li class="author"><strong>本文作者：</strong>Maple Plus<i class="ic i-at"><em>@</em></i>枫</li><li class="link"><strong>本文链接：</strong><a href="https://blog.fxink.cn/computer-software-software-engineering/" title="软件工程导论">https://blog.fxink.cn/computer-software-software-engineering/</a></li><li class="license"><strong>版权声明：</strong>本站所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="../java-shortlink-2024-11-28-shortlink/" rel="prev" itemprop="url" data-background-image="https:&#x2F;&#x2F;image.fxink.cn&#x2F;maple&#x2F;blog26.png" title="枫短链"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>枫短链</span><h3>枫短链</h3></a></div><div class="item right"><a href="../golang-gobase-golangbase/" rel="next" itemprop="url" data-background-image="https:&#x2F;&#x2F;image.fxink.cn&#x2F;maple&#x2F;blog22.png" title="golang模块管理"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>GO基础</span><h3>golang模块管理</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目录"></div><div class="related panel pjax" data-title="系列文章"><ul><li  class="active"><a href="" rel="bookmark" title="软件工程导论">软件工程导论</a></li></ul></div><div class="overview panel" data-title="站点概览"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="Maple Plus" src="../assets/avatar.png"/><p class="name" itemprop="name">Maple Plus</p><div class="description" itemprop="description">谁是我们的敌人？谁是我们的朋友？</div></div><nav class="state"><div class="item posts"><a href="../archives/"><span class="count">9</span><span class="name">文章</span></a></div><div class="item categories"><a href="../categories/"><span class="count">13</span><span class="name">分类</span></a></div><div class="item tags"><a href="../tags/"><span class="count">8</span><span class="name">标签</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/mapleplus" class="item github" title="https:&#x2F;&#x2F;github.com&#x2F;mapleplus"><i class="ic i-github"></i></a><a href="../mailto:fx20031215@163.com" class="item email" title="mailto:fx20031215@163.com"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="../index.html" rel="section"><i class="ic i-home"></i>首页</a></li><li class="item"><a href="../about/" rel="section"><i class="ic i-user"></i>关于</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>文章</a><ul class="submenu"><li class="item"><a href="../archives/" rel="section"><i class="ic i-list-alt"></i>归档</a></li><li class="item"><a href="../categories/" rel="section"><i class="ic i-th"></i>分类</a></li><li class="item"><a href="../tags/" rel="section"><i class="ic i-tags"></i>标签</a></li></ul></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="../golang-gobase-golangbase/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="../java-shortlink-2024-11-28-shortlink/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"></div><div class="status"><div class="copyright">&copy; 2024 -<span itemprop="copyrightYear">2025</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">Maple Plus @ Maple Plus</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="站点总字数">217k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="站点阅读时长">3:17</span></div><div class="powered-by">基于 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL = {
+    ispost: true,
+    path: `computer-software-software-engineering/`,
+    favicon: {
+        show: `one piece!😎`,
+        hide: `枫的最后一句🍁`
+    },
+    search: {
+        placeholder: "文章搜索",
+        empty: "关于 「 ${query} 」，什么也没搜到",
+        stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    nocopy: "false",
+    copyright: `复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。`,
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章时效性提示</span><br>这是一篇发布于 {{publish}} 天前，最后一次更新在 {{updated}} 天前的文章，部分信息可能已经发生改变，请注意甄别。</p></div>`,
+    quiz: {
+        choice: `单选题`,
+        multiple: `多选题`,
+        true_false: `判断题`,
+        essay: `问答题`,
+        gap_fill: `填空题`,
+        mistake: `错题备注`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script src="https://s4.zstatic.net/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO&#x2F;+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn&#x2F;6Z&#x2F;hRTt8+pR6L4N2" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha384-Zm+UU4tdcfAm29vg+MTbfu&#x2F;&#x2F;q5B&#x2F;lInMbMCr4T8c9rQFyOv6PlfQYpB5wItcXWe7" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js" integrity="sha384-TOxsBplaL96&#x2F;QDWPIUg+ye3v89qSE3s22XNtJMmCeZEep3cVDmXy1zEfZvVv+y2m" crossorigin="anonymous" fetchpriority="high"></script><script src="../js/siteInit.js?v=0.4.20" type="module" fetchpriority="high" defer></script></body></html>
