@@ -680,7 +680,7 @@
 &lt;li&gt;record_type：0 普通记录；1 B+Tree 非叶子节点记录； 2 最小记录； 3 最大记录&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;记录真实数据&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#记录真实数据&#34;&gt;#&lt;/a&gt; 记录真实数据&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;AEE5959AE79FAEE6B08D%AE.png&#34; alt=&#34;AEE5959AE79FAEE6B08D%AE&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;AEE5959AE79FAEE6B08DAE.png&#34; alt=&#34;AEE5959AE79FAEE6B08DAE&#34; /&gt;&lt;/p&gt;
 &lt;h4 id=&#34;隐藏列&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#隐藏列&#34;&gt;#&lt;/a&gt; 隐藏列&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;row_id：隐藏主键 记录没有指定主键 又没有唯一索引 就会产生该字段&lt;/li&gt;
