@@ -6234,3 +6234,11 @@ span.label {
 .audio.playing .cover .disc {
   animation-play-state: running;
 }
+.md span:not(.katex),
+.md p,
+.md pre,
+.md li,
+.md a {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 1em;
+}
