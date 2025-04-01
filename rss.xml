@@ -502,7 +502,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;更新任务状态&lt;/strong&gt;：标记任务为成功，设置完成时间。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;发送分发状态消息到下游&lt;/strong&gt;：执行 ** 邮箱 / 短信 / 站内信 ** 通知商家 或 平台人员 或 提醒用户及时使用优惠券&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;发送分发状态消息到下游&lt;/strong&gt;：执行 &lt;strong&gt;邮箱 / 短信 / 站内信&lt;/strong&gt; 通知商家 或 平台人员 或 提醒用户及时使用优惠券&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
